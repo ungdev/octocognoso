@@ -1,9 +1,11 @@
 octocognoso
 ===========
 
-La connaissance collaborative.
-*octo:* De l'octopussy de github
-*cognoso:* "Vous savez", en latin
+La connaissance collaborative
+
+*octo:* De l'octopussy de github.
+
+*cognoso:* "Vous savez", en latin.
 
 Regroupement de prises de notes de cours, anonymes et pour tous !
 
@@ -43,7 +45,6 @@ Année en 2 chiffres. Exemple : P14
 - CM pour cours magistral
 - TD pour travaux dirigés
 - TP pour travaux pratiques
-
 - CF pour conférence
 - ST pour synthèses
 - RS pour ressources (scan d'articles, etc.)
