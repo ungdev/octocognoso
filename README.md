@@ -10,7 +10,7 @@ La connaissance collaborative
 Regroupement de prises de notes de cours, anonymes et pour tous !
 
 
-# Conventions, structure de fichiers et notations
+## Conventions
 
 Voici quelques standards à respecter si vous souhaitez contribuer à ce projet de notation de cours.
 
