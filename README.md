@@ -1,4 +1,3 @@
-
 octocognoso
 ===========
 ![OctoPoulpe](http://openclipart.org/image/300px/svg_to_png/20079/rg1024_Little_octopus.png "Poulpe")
@@ -48,7 +47,7 @@ Année en 2 chiffres. Exemple : P14
 - TD pour travaux dirigés
 - TP pour travaux pratiques
 - CF pour conférence
-- ST pour synthèses
+- SY pour synthèses
 - RS pour ressources (scan d'articles, etc.)
 - OT pour autres types de notes
 
