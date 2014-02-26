@@ -1,0 +1,93 @@
+    UV: IF08 (TD)
+    Semestre: P13
+    Date: 2013-04-09
+    Intervenant: PRO
+
+# TD 4 - Gestion de projet informatique
+
+### Points clé à définir avec le client
+
+- L'organisation
+    S'assurer qu'un unique chef de projet impliqué et ayant le pouvoir de décision
+    est désigné chez le client.
+
+- Les livrables contractuels et autres prestations et engagements
+
+- Le planning
+    - Définir les délais des phases de recette, d'exploitation sous contrôle, de
+      garantie, etc.
+    - Définir à quelles dates seront remis au client les différents
+      livrables.
+
+- La recette
+    Définir sur quels critères le client va accepter ou non la livraison
+
+- Les engagements du client et les dates associées
+- Les limites de fourniture
+    Et notamment l'installation, l'explloitation pendant les phases de recette,
+    ...
+
+- Ces différents points-clef peuvent être définis dans le contrat, la commande
+  ou ses annexes, le cahier des charges, la proposition ou le Programme
+  d'Assurance Qualité, (parfois de façon regroupée dans un document, parfois
+  répartis sur plusieurs documents).
+
+- Ces points doivent être :
+    - Consignés par écrit et formellement acceptés par le client et le
+      fournisseur
+    - clairement définis (les regroupés dans le PAQ en début de projet aide à en
+      avoir une vision claire)
+    - compris et acceptés par les 2 parties
+
+### Recette : les jalons habituels
+
+- Recette définitive (ou recette finale)
+    - C'est la dernière recette.
+    - Elle est généralement effectuée après une période probatoire (par exemple
+      d'un à deux mois)
+    - Contrairement aux recettes usine et provisoire, des tests ne sont pas
+      toujours déroulés. On vérifie généralement plutôt que les anomalies
+      constatées ont bien été corrigées ou prises en compte.
+    - Si le projet prévoit une garantie, la recette définitive ne clôt pas la
+      totalité...
+
+### Recette : les périodes habituelles
+- Période pendant laquelle le système est utilisé comme il doit l'être au final,
+  mais avant que la recette définitive ne soit prononcée (généralement entres
+  les recettes provisoires et définitives.) Différents termes sont utilisés pour
+  désigner cette période :
+    - VABF
+    - VSR : Vérification de Service Régulier
+    - Exploitation sous contrôle
+
+- Garantie : période pendant laquelle le fournisseurs assure la correction des
+  anomalies.
+
+- Suivant les projets , il est possible de définir différents types de processus
+
+### Suivi des écarts
+- En informatique tout (ou presque) est possible. C'est une des difficultés des
+  projets !
+
+- Un suivi des écarts doit être fait sur un projet informatique, notamment en
+  fin de projet.
+    - Par écart on entent toute demande de modification du client
+        - Les anomalies (le fournisseur doit les corriger gratuitement)
+        - Les évolutions (une évolution fait l'objet d'un avenant)
+        - La distinction entre anomalie et évolution est parfois délicate
+          (notamment dans le cas où le client souhaite une modification sans que
+          celle-ci soit en dehors du périmètre contractuel)
+
+- Tenir à jour un tableau des écarts constatés et résolus et le communiquer au
+  client
+
+- Suivre les écarts permet
+    - de s'assurer que toutes les demandes ont été prises en compte,
+    - de signer la recette une fois tous les écarts traités,
+    - au fournisseur de négocier des avenants en traçant les évolutions.
+
+> Toujours être propre sur soi, être à l'aise, essayer d'avoir un minimum de
+> choses à se reprocher pour pouvoir être en position de demander quelque chose à
+> son client
+
+

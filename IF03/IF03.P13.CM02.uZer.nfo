@@ -1,0 +1,28 @@
+[IF03][P13]               Cours 2                              [2013-03-13][C2]
+_______________________________________________________________________________
+
+A quoi sert la crypto.
+
+Protéger efficacement contre certains risques
+Dans le cadre du DICP:
+- Dispo > Sauvegarde sur un support externe ou serveur distant
+- Confidentialité > Dossiers partagés, vol de machines, messagerie
+- Intégrité > Hachage (Tripwire...)
+- Preuve > Watermarking (tatouage de fichiers)
+
+Signature : intégrité - horodatage - preuve
+
+Attention aux fichiers temporaires.
+
+Chiffrement Android à partir de 2.3
+iOS : chiffrement contournable
+Check signature numérique sur site Thunderbird
+
+Jamais de telnet ou de ftp sans encapsulation ssh en entreprise.
+
+OPT : One Time Passeword
+Chiffrement doit être aléatoire.
+Clé de chiffrement doit être de la même taille que le fichier à chiffrer car il
+serait possible de détecter un pattern sinon.
+
+Premier pirate connu : Captain Crucnch

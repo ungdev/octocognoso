@@ -1,0 +1,33 @@
+Synthèse 2/2
+
+E=10log(Pe/1)
+S=E-PL
+SNR=E-PL-N
+
+r=log2(M)
+codage : D=Rm*log2(M)
+Rm=2B
+Nyquist : D=2B*log2(M)
+Shannon : C=B*log2(1+S/N)
+
+PL(d)dB=-10log(GrGe(lambda/4pi*d)²)
+PL(d)dB=PL(d0)+10nlog(d/d0)
+PL(d)dB=10log(Pe/Pr)
+espace libre n=2
+zone urbaine n=3 a 5
+building ac obstacle n=4 a 6
+Pr(d)=Pr(d0)*(d/d0)²
+
+lambda=c/f
+
+df=2D²/lambda
+D : + grde dim de antenne
+
+P(N0)dBm=10log(Kb*T*B)
+Kb=1.38*10^-23 J/°K
+Puissance bruit reception :
+Pb(dBm)=10log(Kb*T*B)+F
+
+Getal=10log(Bspread/Bsignal)
+
+sin(at)' = asin(at)

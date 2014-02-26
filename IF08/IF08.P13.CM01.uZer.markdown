@@ -1,0 +1,132 @@
+    UV: IF08
+    Semestre: P13
+    Date: 2013-03-19
+    Enseignant: SKL
+
+# Nouveau mode projet
+Façon dont les nouvelles entreprises conduisent les projets informatiques
+Lien avec les modes projets non informatique
+Facteur distance physique à prendre en compte dans le travail.
+
+# Rétrospective du mode projet
+Serge K. Levan, consultant UTT depuis 20 ans dans une société spécialisée dans
+le travail collaboratif en ligne et à distance.
+
+## 1. Historique des "activités à projet"
+
+Projet
+: Discours idéologique sur le management "commun" élaboré après des
+années de management. Position d'anticipation.
+
+> "Les gens hors projet sont des gens anormaux / malheureux"
+
+### 1.1. Notion d'activité à projet et son évolution dans l'histoire.
+**Jean-Pierre Boutinet**, professeur de sociologie, seul en France à avoir mené
+une thèse d'Etat sur l'activité à projet. C'est le seul à resituer nos projet
+quotidiens dans le mode projet.
+
+> "La notion d'activité à projet désigne les domaines de la vie en société qui
+ne peuvent pas ou ne peuvent plus se passer du mode projet pour fonctionner".
+
+**Espace** et **temps**, caractéristiques typiques du mode projet.
+
+Capacité de l'être humain : Modifier l'espace et le temps.
+
+### 1.2. Racines historiques de la division sociotechnique du projet moderne.
+Premier grand projet planté de l'histoire des hommes : **la Tour de Babel.**
+Problème de **communication**. Histoire intéressante en termes de symboles.
+Pas de communication, le projet échoue, même si on possède les meilleurs
+outils.
+
+- *Préhistoire* : Projets à courts termes : survivre. Aller chasser. Tout être
+  humain qui a besoin de survivre et possède la capacité de se projeter vit le
+  projet. Animaux ? Travail collaboratif.
+
+- *Antiquité et Moyen-Âge* : Conception et réalisation sont des pratiques
+  confondues. L'oeuvre est conçue comme un auto-engendrement par essais-erreurs.
+
+        Filippo Brunelleschi (1377-1446)
+        Sculpteur et architecte, sonne le glas de l'époque médiévale.
+        Invente la perspective, un nouveau système de représentation du monde.
+        Crée un rupture historique avec le maître d'oeuvre du Moyen Age.
+        Sépare la conception en atelier et l'exécution sur chantier.
+
+- *Epoque moderne* : Jusqu'à 1789. Base du projet tel qu'on le connait
+  aujourd'hui. Première rupture : XVe siècle
+
+- *Epoque contemporaine* : On peut faire travailler des gens ensemble alors
+  qu'il vivent aux 4 coins de la planète. Deuxième rupture en 1950.
+
+
+### 1.3. Les 4 grandes figures du projet (au sens actuel du terme)
+- **Projet technique** : Né au XVième siècle.
+- **Projet social** : "Politique", "Idéologique". XVIIIe siècle, siècle des
+  lumières. Première concrétisation d'un projet politique, idéologique.
+- **Projet existentiel** : XIXième et XXième siècles
+- **Projet pédagogique** : XXième siècle. Fondamentalement politique. Education
+  de la jeunesse.
+
+Attitudes
+: Manières conditionnées de penser les choses
+
+Comportements
+: Manières conditionnées de faire les choses
+
+On va donc jusqu'à anticiper la fabrication d'un calendrier de vie.
+ARPANET, Communiquer pour éviter la guerre
+Un projet technique peut venir inerver un projet social, nourir un projet
+pédagogique, etc.
+
+## 2. Le projet Technique
+Ingénérie de projet travaille sur un rapport à l' **espace**.
+Raccourcir le **temps** de la conception jusqu'à la réalité.
+Les dimensions de l'espace et du temps sont raccourcies par le mode projet.
+
+La planification est au coeur du projet technique.
+
+### 2.1. Les grands planificateurs historiques.
+- Vigerano au XIVe siècle.
+- Vauban (1633-1707).
+- Gantt (1861-1919) et son diagramme.
+
+**Diagramme de Gantt** 1910
+**Diagramme de PERT** 1957, complète la technique précédente.
+Servent à anticiper, se projeter... mais surtout à communiquer.
+
+> Ce sont des outils de communication.
+
+Tout va se jouer sur l' **évaluation des situations d'avancement** et seul un
+**suivi rigoureux** des tâches apporte des résultats.
+
+### 2.2. Les modèles du projet technique
+- Modèle de l'entrepreneur capitaliste (1930)
+- Modèle de l'ingénierie (1960)
+- Modèle de l'ingénierie *concourante* ou *simultanée* (1990).
+
+Vision de l'innovation encore appliquée aujourd'hui
+Certification PMI...
+
+#### Modèle de l'ingéniérie repose sur 2 principes
+- Organisation (MOA, MOE)
+- Mobilisation (contrats...)
+- Coordination (planification...)
+
+#### Ingénierie simultanée basée sur 2 principes
+- Plus de travail collaboratif (contrainte du modèle)
+- Plus de vitesse d'exécution (conséquence du modèle)
+
+Attention à la confusion entre la notion de méthode de développement d'un
+logiciel (AGILE, etc.) et les méthodes de management de projet logiciel. Ce
+n'est pas la même notion, ni les mêmes techniques et méthodes.
+
+Un projet informatique de développement logiciel va impacter le fonctionnement
+d'une organisation et les objectifs de travail de l'entreprise. Unique dans
+l'industrie, situation très particulière.
+
+* 2% des logiciels fonctionnent à la livraison.
+* 3% de plus fonctionneront après quelques modifications mineures
+* 20% seront utilisés après des modifications majeures.
+* 45% ne seront jamais utilisés
+* 30% ne seront jamais livrés.
+
+Les projets IT instrumentent.

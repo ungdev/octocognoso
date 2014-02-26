@@ -1,0 +1,41 @@
+# [RE20] Cours 1 - MPLS
+
+Vendredi 21 Février 2014
+
+**Point commun des opérateurs :** fonctionnement sur le modèle IP.
+
+##### Acheminement (Aperçu)
+Assurer le transport physique des données : voie de communication entre les opérateurs.
+
+Entre un opérateur et un client, un support de communication est nécessaire
+(intermédiaire qui fournit un lien, ce support). On parle d'acheminement ou de
+collecte.
+
+Généralement il s'agit d'un réseau MPLS.
+
+L'opérateur d'acheminement transporte des trames dans des paquets IP.
+
+**PPP :** Point to Point Protocol, sert de conteneur de transport pour les trames
+entre le client et l'opérateur. Réencapsulé dans de l'IP au sein de l'opérateur
+d'acheminement.
+
+On parle de **L2TP**.
+
+
+##### Les opérateurs
+Exemples de protocoles de routage au sein d'un opérateur : IS-IS, OSPF, iBGP.
+
+Exploitation de redondance pour faire face en cas de panne.
+
+**PROTIP:** Le plan de routage doit être simple et sain.
+
+La plupart du temps : deux tables de routage dans les routeurs.
+Table de routage interne à un routeur chez cisco : **VRF**
+
+**Use case :** un paquet IP se trouve dans un cas où le réseau ne peut pas le
+router. Utilisation d'une deuxième table de routage pour un conteneur qui
+réencapsulera le paquet IP.
+
+**Tables de routage :** la première va identifier et donner à la deuxième une
+adresse IP différente de la première. Peut-être de la réencapsulation, ou
+exploitation du next-hop.

@@ -1,0 +1,73 @@
+Synthèse 1/2
+
+antenne radio
+– Le diagramme de rayonnement
+– L’ouverture
+– La directivite
+– Le gain
+– La polarisation
+
+Beacon: decouverte du reseau (SSID+debits)
+Prob request: identifier les reseaux sans fil disponibles
+prob respons: SSID+debits
+
+Authent: Proteger l’acces aux ressources
+Association: allouer ressources to station et synchro ac AP
+
+3 types de trames: donnees, contrôle, gestion
+
+DS: liaison filaire entre 2 BSS
+
+WEP vulnerable:
+–Une seule cle est utilisee pour authent et le chiffrement
+–Pas d’authent mutuelle
+–Reutilisation de l’IV
+–Les cles RC4 peuvent etre cassees par Force Brute
+–Le CRC 32 protege pas integrite des messages
+–Pas de mecanisme de lutte contre le rejeu
+
+ISM 2.4GHz
+U-NII 5GHz
+
+FHSS:79canaux 1MHz 2Mb/s
+DSSS:14canaux 22MHz
+
+802.11a
+BPSK 6Mb/s
+QPSK 12 a 18
+16QAM 24 a 36
+64QAM 54
+
+archi GSM :
+Mobile->BTS->BSC->MSC->PSTN
+modulation:GMSK
+archi GPRS:
+Mobile->BTS->BSC->SGSN->Backbone->GGSN->Internet
+archi 3G:
+mobile->NodeB->RNC->SGSN->GGSN->Internet
+
+HLR:DB abonnés
+MSC:
+-com mobile/PSTN
+-interco réseau fixe
+-mobile en visite
+VLR:DB users sur MSC
+SGSN:
+-Gestion des mobiles
+-Authentification
+-Chiffrement
+-Attachement
+-Mobilité
+-Compression
+GGSN:passerelle GPRS/IP
+
+interface GPRS:
+Um: MS – BSS
+Gb: BSC - SGSN
+Gn: SGSN - GGSN
+Gr: SGSN – HLR
+
+EDGE:modulation 8 PSK(si bonne qualite radio)
+
+3G=ITU IMT-2000
+WCDMA en Europe

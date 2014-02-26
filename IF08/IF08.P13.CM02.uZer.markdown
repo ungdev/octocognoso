@@ -1,0 +1,159 @@
+    UV: IF08 (Cours)
+    Semestre: P13
+    Date: 2013-03-26
+    Intervenant: PRO
+
+# Cours 2
+
+## Introduction
+
+Projet -> Multiplicité des tâches
+Besoin d'une gestion spécifique
+
+Besoin de cadrer un projet professionnel
+
+## Intérêt
+Peu de projet réussissent :
+- Abandon
+- Dérives très importantes par rapport au performances attendues, au délai, au
+  budget...
+
+**Facteurs clés du succès**
+- Compétence du réalisateur et pertinence du projet
+- Efficience des oputils de gestion de projet
+- Valorisation des nouvelles techniques de traitement de l'information (EDI,
+  analyse des risques...)
+- Importance des facteurs relationnels et du management de l'équipe projet
+
+Réussite des entreprises
+: Capacité d'organisation, efficacité de leur gestoin des ressources
+
+Forte concurrence du marché
+Le seul savoir-faire technique n'est plus suffisant
+
+Ordonnancement de projet intéressant pour :
+- Etablir un planning des activités
+- Répondre aux besoins en respectant des contraintes
+- communiquer le travail à réaliser
+- suivre l'évolution de la réalisation et régir le cas échéant
+
+L'ordonnancement obtenu doit, selon l'objectif :
+- Minimiser la date de fin du projet
+- minimiser l'écart entre la date attendue des produits et la date effective de
+  fin de réalisation
+- Minimiser le retard total
+- ...
+
+Utilisation du diagramme de Gantt par exemple.
+Outil de communication du travail à réaliser
+
+Suivre la production, s'assurer de la bonne exécution des tâches et réagir
+- Problème d'approvisionnement,
+- Panne machine,
+- Absentéisme
+- ...
+
+## Définitions
+Comment réaliser un ordonnancement en fonction de priorités et de contraintes ?
+
+Définir les contraintes de précédence
+
+Autres particularités :
+- Tâches pouvant être préemptives (interruptibles, morcelables)
+- Non préemptives : non interruptibles avant la fin complète de son exécution.
+
+Les ressources peuvent être :
+- Financières
+- Matérielles
+- Humaines
+
+Contraintes
+: Ensemble de conditions à respecter
+
+Séquençage
+: Déterminer l'ordre de réalisation des tâches.
+
+Tenir compte des contraintes de précédence
+Autres critères possibles. Etablir des priorités spécifiques au problème à
+résoudre et à ces particularités. Il peut s'agir de priorité en fonction :
+- des exigences de délai
+- des coût de pénalité
+- ...
+
+Ordonnancement
+Séquence déterminée (ordre de passage des tâches)
+Reste plusieurs solutions possibles
+
+### Complexité
+
+La plupart des problèmes d'ordonnancement sont combinatoires.
+
+Trouver un ordre optimal de n tâches sur 1 machine
+= Regarder les n! solutions possibles
+
+On obtient la séquence, mais pas encore l'ordonnancement.
+
+Compter en plus les solutions dans lesquelles on retarde l'exécution des tâches
+sans changer l'ordre.
+
+Temps de calcul = fonction exponentielle de la taille du problème.
+
+## Ordonnancement
+- PERT / Méthode des potentiels
+- Gantt
+
+1. Découpage en tâches
+2. Identifier les dépendances
+3. Fiche de tâche pour chaque tâche à réaliser
+    - Conditions pour pouvoir démarrer la tâches
+    - Opérations à réaliser
+    - Résultats attendus
+    - Affectation des ressources (humaines, financières, matérielles, temportelles)
+    - Affectation d'un responsable (garant de la bonne conduite de la tâche)
+
+### PERT / MPM
+Gérer l'ordonnancement dans un projet
+- Mise en évidence des liaisons entre les différentes tâches d'un projet
+- Définition du chemin critique (opérations sur lesquelles on ne peut pas
+  prendre de retard sans modifier la durée globable du projet)
+
+**Principe**
+
+1. Classer les tâches par niveau de priorité
+2. Positionner les tâches / Les relier
+3. Déterminer les dates au plus tôt
+4. Déterminer les dates au plus tard
+5. Calculer les marges
+
+#### PERT _(Program and Evaluation Review Technique)_
+- Représentation des tâches (code et durée) par des flèches (longueur
+  indépendante de la durée)
+- Représentation des étapes (début et fin de tâches)
+
+Chaque tâche possède un début et une fin
+A l'exception des étapes initiale et finale du projet, chaque étape de fin est
+étape de début de la tâche suivante.
+
+> Cercles
+
+#### MPM _(Méthode des Potentiels Métra)_
+
+Chaque tâche possède un début et une fin
+A l'exception des étapes initiale et finale du projet, chaque étape de fin est
+étape de début de la tâche suivante (aussi).
+
+> Rectangles
+
+Marge totale d'une tâche : son utilisation n'affecte pas la date de fin du
+projet.
+
+**Mt** = (DateAuPlusTard - DateAuPlusTôt)
+
+Marge libre d'une tâche i : son utilisation n'affecte pas la date de début des
+tâches j suivantes.
+
+**Ml(i)** = minj(DateAuPlusTôtj - DateAuPlusToti + dureei)
+
+Chemin critique : les marges sont nulles sur les tâches le constituant.
+
+

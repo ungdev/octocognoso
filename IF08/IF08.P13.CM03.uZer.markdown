@@ -1,0 +1,196 @@
+    UV: IF08 (Cours)
+    Semestre: P13
+    Date: 2013-04-02
+    Intervenant: PRO
+
+# Cours 3 - Gestion de projet informatique
+
+Cours orienté Maîtrise d'Oeuvre.
+
+SSII Maitrise d'oeuvre
+Client Maitrise d'ouvrage
+
+### Mise en place de la gestion de projet
+Projet
+: Organisation qui possède un certain nombre d'objectifs et de moyens
+
+Se décline en
+
+- Livrables du projet (et les autres engagements du fournisseur)
+- Le Planning : (dates de livraison des livrables, jalons - planning fournisseur
+  et planning client)
+- La démarche projet et la liste des tâches nécesssaire pour produire les
+  livrables
+- Les charges nécessaires pour réaliser ces tâches (en jH)
+- Les coûts du projet ( coût de prestations + matériel & logiciels)
+- Les fournitures et prestations attendues du client (nécessité de connaitre les
+  contraintes du clients, l'architecture de leur plateforme, etc.)
+- Les responsables client et fournisseurs, et leur rôles
+- Le suivi de projet (nature et fréquence des réunions, rapport d'avancement,
+  ...) avec le client et en interne
+- La constitution de l'équipe du fournisseur (profils, intervenants)
+- La recette (ie. ce qui permettra de prononcer la recette) Toutes les activités
+  qui permettent de clore le projet.
+- Les procédures Qualité
+
+
+#### Livrables et autres engagements
+
+- Etablir la liste précise, exhaustive de ce qui est à livrer au titre du projet
+    * Logiciels (sources, procédure d'installation, procédures permettant de
+      regénérer les exécutables)
+    * Machines et matériels
+    * Documents
+    * Les formations, les installations
+
+- La liste des livrables doit être exhaustive
+    * Il faut que tout ce que le client achète soit décrit en terme de
+      livrables. Le projet doit pouvoir être recetté en vérifiant que tous les
+      livrables ont été fournis au client et sont conformes
+    * Pour les prestations ne donnant pas lieu à une production identifiable,
+      lister simplement les prestations (formation, installation, ...)
+
+- Au-delà des livrables, le fournisseur peut prendre d'autres engagements : des
+  délais de traitement des anomalies, la capacité de démarrer une usine avec
+  l'application de GPAO développée, etc...
+
+
+#### Le planning (suite)
+
+- Donne une vision du projet
+- Permet au client et au fournisseur de suivre l'avancement du projet
+- Le planning doit indiquer
+    * Les jalons (validation, livraisons, recettes...)
+        > Identifier les livrables du fournisseur et ceux du client
+
+    * Les phases et leurs durées
+        > Identifier les tâches principales dans chaque phase
+- (...)
+
+#### Progiciels de planification
+Microsoft Project (plutôt un éditeur de planning qu'un outil de gestion de
+projet.
+
+Autres progiciels plus complets mais aussi plus complexe, mais pouvant
+être utilisés pour la gestion de projets informatiques. PSN8 (Permet la gestion
+multi-projets), Planisphere (Ex: OPX2) permet la gestion couplée projet/budget,
+bien adaptée aux organisations matricielles. Artemis.
+
+#### Liste détaillée des tâches
+
+- Cette liste est nécessaire pour piloter le projet : affecter les tâches aux
+  différents intervenants et suivre leur avancement.
+- Elle est établie à partir des livrables à fournir et des prestations
+  généralement décrites dans le cahier des charges, la proposition ou le ...
+  ...
+
+#### Estimation globale du délai
+
+Délai = 2,5 * sqrt3(Charge)
+
+Délai optimal de réalisation d'un projet informatique (méthode COCOMO
+d'estimation de charge)
+
+Délai en mois
+Charge en hommes-mois
+
+#### Cycle en V
+
+        Avant projet                                Mise en service > recette
+                \                                           /
+                Spécifications Logiciel      Validation interne
+                            \                       /
+                [       Conception              Intégration         ]
+    REALISATION [               \               /                   ]
+                [                     Codage                        ]
+
+#### Démarche projet itérative
+- A l'opposé du cycle en V (classique et éprouvé) d'autres démarches itératives
+  existent, souvent basées sur le travail d'une équipe intégrée
+  client/fournisseur
+- Des maquettes et/ou prototypes sont réalisés dès le début du projet et
+  présentés aux utilisateurs (équivalent à la phase de spécification)
+
+    Ceci permet de spécifier les fonctions attendues en voyant un peu plkus
+    contrètement comment on travaillera avec le système final.
+
+    > Penser à tous les besoins qu'on aura sur un document de spécification
+    > papier est un exercice d'abstraction très difficile. On évite avec le RAD
+    > l'effet "tunnel" du cycle en V, où le produit final n'est pas visible
+    > avant la validation.
+
+    Les spécifications sont figées.
+
+- ...
+
+- On étudie tous les aspects du projet simultanément dès le début du projet
+
+    * changement sur l'organisation de la société et son mode de fonctionnement,
+    * spécifications fonctionnelles
+    * architecture technique, déploiement
+    * migration des données (reprise de l'existant)
+    * les interfaces, notamment avec les logiciels existants
+
+- L'objectif est de se concentrer sur les fonctionnalités primordiales
+- La démarche itérative est particulièrement adaptée :
+    * pour les grands projets
+    * pour les projet de paramétrage d'un progiciel (ERP type SAP, ...,
+      progiciel de gestion documentaire type DOCUMENTUM, ...)
+
+**Difficultés**
+
+- Le périmètre est plus difficile à maîtriser
+    * Délais fixes
+    * Inflation
+    * ...
+
+- Les utilisateurs-clef qui assistent aux maquettes doivent
+    * être expérimentés
+    * reconnus auprès des autres utilisateurs
+    * avec l'autorité nécessaire
+    * avoir le pouvoir de décision
+
+#### AGILE : préparation
+
+- Lors de cette session de lancement, on établie la vision partagée du produit
+  et de l'objectif à atteindre et on définit l'organisation de l'équipe.
+- Le product Manager est garant du périmètre fonctionnel, du pilotage du projet
+  en terme fonctionnel.
+- ...
+
+#### AGILE : Lancement du sprint
+
+- Analyse en parallèle des "stories" en anticipation pour le sprint suivant.
+    * Le product Manager pilote la sélection et priorise les scénarios en
+      fonction de la valeur métier qu'elles apportent.
+    * Certains scénarios sont sélectionnés prioritairement en fonction des
+      risques qu'ils représentaient.
+- User stories sélectionnées en début d'itération, implémentées dans ce sprint.
+
+
+#### AGILE : Revue de Sprint
+
+- En fin d'itération, l'équipe conduit une réunion de rétrospective pour
+  identifier ses axes de progrès et identifier des actions d'amélioration de la
+  performance et de l'efficacité des itérations suivantes
+- l'équipe itère ainsi progressivement vers l'objectif du produit et les jalons
+  des releases
+- le product manager peut décider de livrer le produit plus tôt s'il s'avère que
+  l'ensemble des fonctionnalités nécessaires a été atteint.
+
+#### Estimation des charges
+
+- délicate
+- répartition habituelle des charges pour un projet dev spécifique pour lequel
+  les besoins sont clairement définis dans un cahier des charges.
+    * Spécification : 25% (dont la conception préliminaire)
+    * Réalisation : 50% (dont rédaction de la documentation et tests unitaires)
+    * Validation : 25% (dont rédaction du dossier de test)
+- Charge de gestion de projet (hors supervision tech) : 7%
+- Charge de gestion de projet (avec supervision technique) : 15 à 20%
+
+### Aspects contractuel
+### Retours d'expérience
+### Gestion de configuration et gestion de la documentation
+
+

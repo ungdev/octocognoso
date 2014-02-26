@@ -1,0 +1,36 @@
+    UV: IF08 (TD)
+    Semestre: P13
+    Date: 2013-04-02
+    Intervenant: PRO
+
+# TD 3 - Gestion de projet informatique
+
+## Participation Orale 1
+Méthode Scrum
+Méthode AGILE, beaucoup utilisée dans plusieurs entreprises.
+
+Ressemble à beaucoup d'autres méthodes AGILE, fonctionnent par cycles où on
+établit dans un premier temps des jalons.
+
+On défini dans un premier temps un micro cahier des charges de manière
+séquentielle.
+
+Petits objectifs toutes les 2 semaines.
+
+Toutes les semaines : Backlog (qu'est-ce qu'on a fait cette semaine)
+
+Méthode Scrum : mur de Post-It, par couleur, colonnes. Vert effectué, Rouge
+devant être fait prochainement, Orange sinon.
+
+Rendu visuel du immédiat.
+
+## Projet
+
+Répondre à l'appel d'offre.
+10 ou 15 slides.
+
+*2 parties :*
+Partie technique avec la solution à implémenter
+Partie Organisationnelle, comment le projet va être exécuté.
+
+

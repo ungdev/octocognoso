@@ -1,0 +1,57 @@
+# [RE12] Cours 1 - Services réseau
+
+Vendredi 21 Février 2014
+
+## Présentation de l'UV
+##### Notation
+* **Médian** 0.3
+* **Final** 0.4
+* **Projet** 0.3
+* **Note éliminatoire au final** 6/20
+* **UV validée à 10**
+
+##### Divers
+Pas de TP semaine du 24 Février (semaine A)
+
+## Notes de cours
+
+**Estimations**
+
+- 20% du trafic Internet = UDP
+- 80% du trafic Internet = TCP
+
+##### Modèle OSI
+**Couche**  | **Rôle**
+-------|-------------------------------------------------
+LAYER1 | Codage, signaux électriques
+LAYER2 | Commutation, Lien entre les équipements, contrôle d'accès
+LAYER3 | Interconnexion des réseaux
+LAYER4 | Permettre la communication entre des processus applicatifs distants (via sockets)
+
+Il est important d'identifier les processus applicatifs.
+
+Multiplexage et démultiplexage lors de la communication entre processus applicatif et flux réseau.
+
+Résolution de nom niveau 4 possible avec (protocole ?) SRV.
+
+###### En système
+On parle de librairie TCP/IP.
+
+**Processus lourd :** espace mémoire dédié.
+
+**Processus léger :** mémoire partagée avec d'autres processus.
+
+**Beep et Apex** : Propositions de modèles pouvant se démarquer du modèle client /
+serveur. Même dans le modèle pair à pair, on retrouve à l'échelle microscopique
+le modèle client/serveur.
+
+    RFC 768 (1980) > UDP
+
+**Contrôle de flux** : Adaptation du rythme d'émission en fonction de la
+capacité de réception du destinataire.
+
+**Contrôle de congestion :** Adaptation du rythme d'émission en fonction du rythme
+de congestion perçu dans le réseau.
+
+Une des raisons pour lesquelles UDP est utilisé pour SNMP : On ne veut pas que
+des alertes liées au contrôle soient remontées par SNMP lui-même, pas besoin de fiabilité non plus.

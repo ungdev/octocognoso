@@ -1,0 +1,107 @@
+    UV: IF08 (TD)
+    Semestre: P13
+    Date: 2013-03-19
+    Intervenant: SKL
+
+# TD01
+
+## 1. Recommandations bibliographiques
+- **LE MANAGEMENT DE PROJET**, Gilles Garel (La Découverte, 2011 2e Edition)
+- **GESTION DE PROJET AGILE**, Véronique Messager (Eyrolles, 2013)
+- **TRAVAIL COLLABORATIF SUR INTERNET**, Serge K. Levan (Vuibert, 2004)
+
+Questions du QCM basées sur le contenu des 3 livres ci-dessus.
+Lectures recommandées pour le mini-projet.
+
+Le premier parle de la gestion de projet en général (projets non informatiques)
+Le deuxième est, à l'inverse, totalement encré dans les projets informatiques.
+
+La note d'un groupe est la même pour tous ses membres.
+
+## 2. Présentation du miniprojet
+Nécessité pour la DSI de K3 de réaliser en 2 mois un petit outil de sondage de
+group pour les communautés de pratique qui utilisent l'intranet de
+l'organisation.
+
+Le chef du département Etudes-Développements (à Paris) mandate Aude Vessel comme
+chef de projet (à Troyes).
+
+**3 ressources disponibles** : Charles Attan, un CM localisé à Paris, et deux
+développeurs Java localisés à Lima au Pérou (mis à disposition de la MOE). La
+consigne est claire et non négociable. Pas de fonds dispo pour déplacements.
+
+Utilisation du Nouveau mode Projet.
+
+**Contraintes** :
+- Pas de budget de déplacements
+- Utilisation impérative de la plateforme IBM Quickr
+- Aude, Troyenne, ne connait pas Laure et Marthe à Lima qui parlent espagnol.
+Mais elle connaît bien Charles à Paris.
+- Personne ne parle le glibish (Global English) / Idem pour l'écriture.
+
+**Objectif** :
+- Boucler les specs de l'outil de sondage de groupe en 2 semaines, en ligne, à
+  distance, via Quickr.
+
+Le chef de projet n'est pas le seul acteur à avoir des problèmes. Tout le monde
+est dans le même bateau... Chaque groupe doit trouver une solution performante
+et élégante, et livrer le dossier de specs d'outil de sondage de groupe.
+
+### Attentes pour le mini-projet
+1. Exposé clair et concis de la situation-problème, des difficultés pratiques et
+   des solutions (pratiques)
+2. Modalités de collaboration choisies pour valider les spécifications de
+   l'outil Sondage de groupe (livrable)
+3. Pratiques collaboratives du groupe sur le site projet Quickr (illustrations)
+
+**Soutenance pour ce mini-projet** : 28 Mai 2013.
+
+> **QQOQCCP** : Qui fait quoi ? Où ? Quand ? Comment ? Combien ? Et pourquoi ?
+
+- **Quoi** ? Les actions, les activités à mettre en route.
+- **Qui** ? Les personnes concernées et impliquées. Grosse différence !
+- **Où** ? Domaines touchés par le projet.
+- **Quand** ? Le calendrier
+- **Comment** ? Les moyens, outils, méthodes à mettre en place
+- **Combien** ? En temps (charge de travail), et en argent
+- **Pourquoi** ? Les motifs et Pour quoi ? Les objectifs.
+
+Autre question à poser :
+> "Qui baise qui ?"
+Il faut prendre en compte l'organisation dans sa globalité
+Hiérarchie, logique d'action/objectifs
+
+Organisation
+: Structure + Processus de travail
+
+Est-ce que le client a un vrai problème ? Peut-il le résoudre tout seul ?
+Le consultant a-t'il une vrai raison de travailler sur ce problème ?
+
+### Groupe de projet N°2
+**Membres** : Paul, Jean-Philippe, Julien, Youenn
+
+Chef de projet
+Community manager
+2 developpeurs.
+
+### Infos
+Spécification
+: Description des caractéristiques vues de l'extérieur. Comprennent
+les spécifications techniques, fonctionnelles et non-fonctionnelles.
+Point de vue du futur utilisateur, *End-user*. Doit être rédigé dans le
+vocabulaire du client.
+
+Conception
+: Description des caractéristiques vues de l'intérieur. Beaucoup plus
+proche de la réalité, c'est le travail du futur concepteur, pour répondre
+aux besoins soulevés par les spécifications.
+
+Dossier de spécifications (d'un sondage de groupe)
+: Rédigée par le concepteur
+
+Cahier des charges (d'un sondage de groupe)
+: Rédigée par l'utilisateur final
+
+Communiquer
+: Essayer de se comprendre et de se mettre au moins partiellement d'accord sur
+une idée. Communiquer c'est vouloir se comprendre.

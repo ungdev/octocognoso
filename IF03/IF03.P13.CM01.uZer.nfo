@@ -1,0 +1,174 @@
+[IF03][P13]          Sécurité des systèmes d'information        [2013-02-27][C1]
+________________________________________________________________________________
+
+[Enseignant]____________________________________________________________________
+
+  AC
+  Intervenant notamment pour la police.
+  Autres cours : GS11, GS13, GS15, Crypto
+  Contact : Mail avec balise [IF03] ou SMS si urgent.
+  Références :  Livres du SCD ou éditions ENI
+
+[Evaluation]____________________________________________________________________
+
+  Pas de projet car nous sommes trop nombreux.
+  Pas de médian
+
+  70% Final : QCM, pas le droit au cours. OK+0.5, KO-0.5, NA+0
+  30% Poster: Création d'un poster sur la sécurité des systèmes d'information A3
+              Par groupe de quatre personnes. Intructions sur Moodle.
+
+________________________________________________________________________________
+
+                                    Cours
+
+Il y a une différence entre les besoins en sécurité actuels et ceux d'il y a 20
+ans. Interconnexions Entreprises/Entreprises ou Entreprises/Clients multiples.
+Cependant problèmes d'interdépendances.
+
+[Définitions]___________________________________________________________________
+
+* SI = Système d'Informatio
+  Ensemble de moyens permettant d'élaborer, de traiter, de partager, de stocker,
+  de diffuser l'information.
+
+* SSI = Sécurité des systèmes d'information
+  Ensemble de moyens techniques, humains, juridiques, pour garantir la sécurité
+  d'un système d'information. On parle de DIC.
+
+* DICP = Disponibilité, Intégrité, Confidentialité, Preuve
+  Quatre critères de sensibilité de l'information en SSI.
+
+* OIV = Opérateurs d'importance Vitale
+  Secteurs d'activité avec de fortes contraintes au niveau de leur sécurité
+
+* Asset = Ressource
+
+[Enjeux]________________________________________________________________________
+
+* Entreprises privées
+* Services publics
+* OIV : Opérateurs d'importance vitale
+
+
+[Vulnérabilités]________________________________________________________________
+
+* Technologiques
+* Humaines
+* Organisationnelles
+
+
+[Menaces]_______________________________________________________________________
+
+* Origines Naturelles
+* Origines Humaines
+* Origines Juridiques
+
+[Attaques]______________________________________________________________________
+
+Exploitation d'une vulnérabilité.
+Facteurs agravants : attaques réalisées à distance.
+
+Il existe deux types d'attaque :
+* Les attaques actives : vol, destruction, déni de service, DDoS
+* Les attaques passives : écoute sans modification des données.
+
+Notion de surface d'attaque à réduire pour une entreprise, afin d'assurer sa
+sécurité.
+
+         Menace x Vulnérabilité x Potentialité
+Risque = _____________________________________
+
+                     Contre-Mesure
+
+Le risque est la combinaison des pertes et de menaces qui les auraient
+engendrées
+[IF03][P13]                 La gestion des riques              [2013-03-05][C02]
+________________________________________________________________________________
+
+Preuve, Authentification, Habilitation
+
+Sécu peut être résumée par : Gestion des risques ou assurance
+
+* Tests d'intrusion
+* Audits fonctionnels
+
+ROI: Retour sur investissement (Return of investment)
+
+MEHARI : Plus light
+EBIOS : Long à mettre en place
+OCTACE : Best practices
+
+Sécu : 11 domaines, régies par ISO 27002
+
+ISO ... 000 = vocabulaire des normes
+        001 = Autres normes
+        002
+        003...
+
+27002 : Best practices
+
+* Conformité
+* Politique de sécurité
+* Sécurité de l'organisation
+* Classification et contrôle des actifs
+* Sécurité du personnel
+* séucirté physique et environnementale...
+* Gestion des communications et opérations
+* Contrôle des accès
+* Développement et maintenance
+* Gestion des incidents
+* Gestion de la continuité
+*
+etc.
+
+CF Moodle
+
+La PSSI est la première étape de toute démarche de SSI.
+PSSI = Politique de sécurisation des systèmes d'information
+
+Deux mesures :
+* Liste des points à aborder
+* Périodicité de la mise à jour des règles.
+
+RSSI : Responsable de la SSI
+
+Deux mesures :
+* Organisation
+* Relation avec les tiers
+
+Contracts à signer avec :
+* Fournisseurs
+* Organismes publiques
+* Clients
+
+Loi pour la confentialité entreprise.
+
+DR = Diffusion restreinte
+CD = COnfidentiel Défense
+SD = Secret Défense
+TSD = Très secret défense
+
+
+Ne pas donner des droits pour une durée indéterminée. Max 6 mois/1 an
+
+Lors de la mise en production d'un change : Vérifier la non régression
+BÂLE2 Règlementation
+
+SPOF = Single Point Of Failure : Point de faiblesse d'un système, point de
+rupture, en cas de panne, etc.
+
+Sécurité != Sûreté.
+
+Sûreté = Pannes, environnement, etc.
+Sécurité = +malveillance.
+
+Cigref.
+
+ALICE ET BOB
+AES standard, bannir DES et 3DES
+
+Chiffrement interdit en France avant 1999
+Considéré comme une arme de guerre.
+
+

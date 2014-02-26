@@ -1,0 +1,41 @@
+# [RE23] Cours 1
+Jeudi 20 Février 2014
+
+## Aperçu du cours
+- Cours relativement théoriques assez lourds, réparti sur le semestre
+- 3 Cours d'intro
+- Présence d'intervenants ext.
+
+##### Notation
+- Exposé 1 (20%)
+- Exposé 2 (30%)
+- Final (50%)
+
+##### Sujet exposé 1
+Présentation sur le métier d'administrateur réseau dans un domaine professionel
+particulier (par exemple expérience en TN09). Évalué sur la capacité à se poser
+les bonnes questions. Interview d'un de nos anciens
+collègues/professionels nous entourant pour obtenir des informations sur son
+métier :
+Salaires, journée type, journée noire, quelques aspects techniques...
+
+_OU_
+
+Présentation d'un outil de gestion de réseaux pour les personnes n'ayant pas de
+contacts en entreprise
+
+##### Sujet exposé 2
+Panel de sujets proposés par l'enseignante. Tourne autour des orientations de la
+gestion de réseaux, des innovations actuelles. Sujet plus technique que le
+premier exposé.
+
+##### Sujet d'examen
+Corpus d'articles récents (2 semaines précédentes) à commenter, autour du
+domaine de la gestion des réseaux. Documents autorisés (tout type).
+
+## Notes
+> Gérer = Plus ou moins court terme.
+
+> Administrer = Plus ou moins long terme.
+
+Aujourd'hui on ne parle plus de systèmes experts mais de réseaux autonômes.

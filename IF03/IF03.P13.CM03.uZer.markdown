@@ -1,0 +1,36 @@
+    UV: IF03 (Cours)
+    Semestre: P13
+    Date: 2013-03-27
+    Intervenant: CORP
+
+# Cours 3
+
+EDI
+: Echange de Documents Informatiques
+
+Ouverture d'un SI sur le web quasi indispensable pour en entreprise.
+Information de plus en plus immatérielle.
+
+**Deux grands vecteurs d'attaques**
+- Attaques sur les applications web
+- Attaques sur le navigateur web
+
+**Risques**
+- Fuite d'infos sensibles
+- Atteinte à l'image de marque
+- Perte de dispo
+- Perte financière directe
+- Problèmes juridiques suite aux mauvais comportement des salariés
+
+**Les mythes**
+- Par défaut, le développeur fournira une solution sécuritée (FAUX)
+- Seuls les génies de l'informatique savent exploiter des failles dans des
+  applications web (FAUX)
+- SSL implique qu'un site web est sécurisé. (FAUX)
+- Un site web est protégé s'il possède un firewall. (FAUX)
+- Une faille sur une application interne n'est pas importante (FAUX)
+
+WAF
+: Firewall applicatif, contient par exemple une couche applicative (Ex: HTTP)
+
+Les applications web sont exposées
