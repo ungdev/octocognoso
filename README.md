@@ -7,7 +7,7 @@ La connaissance collaborative
 
 *cognoso:* "Vous savez", en latin.
 
-Regroupement de prises de notes de cours, anonymes et pour tous !
+Regroupement de prises de notes de cours pour tous !
 
 
 ## Conventions
@@ -54,18 +54,22 @@ Année en 2 chiffres. Exemple : P14
 Évitez d'utiliser voter vrai nom, un pseudo est plus approprié
 
 ##### Extensions de fichier autorisées :
-> .txt
-> .nfo
-> .markdown (obligatoire si vous tapez en markdown, format fortement recommandé)
-> .tex
+```
+.txt
+.nfo
+.markdown (obligatoire si vous tapez en markdown, format fortement recommandé)
+.tex
+```
 
 ##### Extensions de fichier déconseillées mais acceptées :
-> .doc
-> .docx
-> .pdf
-> .png
-> .jpg
-> .gif
+```
+.doc
+.docx
+.pdf
+.png
+.jpg
+.gif
+```
 
 ##### Exemple :
 
