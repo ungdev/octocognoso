@@ -1,6 +1,6 @@
-2014-02-26
-
 #Les bases de la cryptographie
+
+*Mercredi 26 Février 2014*
 
 ##Définitions
 **Cryptologie** : science du secret. Cette science englobe la cryptographie (écriture secrète) et la cryptanalyse (analyse de cette dernière). 

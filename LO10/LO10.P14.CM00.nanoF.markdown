@@ -1,6 +1,7 @@
-2014-02-26
-
 #Architecture et design pattern pour les systèmes orientés services
+
+*Mercredi 26 Février 2014*
+
 Un service web est un processus ou ressource métier mis à disposition à d'autres programmes via le web et respectueux des standards. Le but est ainsi de rendre disponible les données dans un format standard pour faciliter son utilisation. 
 
 ##Contexte
