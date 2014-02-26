@@ -1,0 +1,32 @@
+2014-02-26
+
+#Les bases de la cryptographie
+
+##Définitions
+**Cryptologie** : science du secret. Cette science englobe la cryptographie (écriture secrète) et la cryptanalyse (analyse de cette dernière). 
+/!\ Chiffrer n'est pas crypter. Crypter n'existe pas !
+
+**Chiffrer** : transformer un message en clair en message intelligible à l'aide d'une clé.
+**Déchiffrer** : obtenir un message précédemment chiffré en utilisant la clé. 
+**Décrypter** : obtenir un message précédemment chiffré mais sans l'aide de la clé. 
+
+##Problème de base
+Impossible de factoriser un grand nombre par deux nombres premiers. 
+
+##Concepts
+* Chiffrement symétrique 
+* Chiffrement asymétrique 
+* Fonctions de hachage : permet de vérifier l'intégrité des données 
+
+###2 caractéristiques :
+* Type d'algorithmes
+* Taille de la clé utilisée (AES = 128 bits)
+
+##DICP et la cryptographie
+* Disponibilité : n'intervient pas dans cette problématique 
+* Intégrité : fonctions de hachage permettent de vérifier l'intégrité des données échangées 
+* Confidentialité : utilisation des algos symétriques et asymétriques
+* Preuve : fonctions de hashage (MD5, SHA-1) + clés privées permettent d'assurer l'authenticité
+
+##Application dans le cas réel 
+On applique une solution avec des bi-clés privées/publiques.

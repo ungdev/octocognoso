@@ -1,0 +1,43 @@
+2014-02-26
+
+#Architecture et design pattern pour les systèmes orientés services
+Un service web est un processus ou ressource métier mis à disposition à d'autres programmes via le web et respectueux des standards. Le but est ainsi de rendre disponible les données dans un format standard pour faciliter son utilisation. 
+
+##Contexte
+* Communication client - serveur
+* Communication machine à machine (Remote Procedure Call)
+* Architecture distribuée 
+* Producteurs et consommateurs de services 
+* Cloud computing (infrastructure dans le nuage)
+
+###Cloud Computing
+IAS : Infrastructure as a service. Amazon est un des pionniers sur ce terrain avec son offre AWS (Amazon Web Service). Elle offre de louer sa puissance infrastructure (stockage et calcul) pour héberger les services des clients. 
+
+##Enjeux en LO10
+###Technique
+####Technologies
+* HTTP, LDAP...
+* JSON, XML, WSDL...
+* JavaScript, Java...
+* AJAX
+
+Différentes approches sont possibles, avec différents frameworks possibles (SOAP, REST). 
+####Ingénierie logicielle
+* Performance
+* Fiabilité
+* Maintenabilité
+* Evolutivité
+* Sécurité
+
+##Programme et intervenants
+###Cours en 4 actes
+* Point de vue utilisateur / consommateur et formats des données 
+* Services web orientés ressources (REST)
+* Services web comportementaux (SOAP)
+* Architecture et design patterns
+
+###Intervenants
+* A.M : notions de "ressources web"
+* A.B : modules sur REST
+* F.P : modules sur SOAP
+* M.T : design patterns
