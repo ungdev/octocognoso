@@ -1,7 +1,9 @@
+
 octocognoso
 ===========
+![OctoPoulpe](http://openclipart.org/image/300px/svg_to_png/20079/rg1024_Little_octopus.png "Poulpe")
 
-La connaissance collaborative
+_La connaissance collaborative_
 
 *octo:* De l'octopussy de github.
 
