@@ -31,7 +31,7 @@ De manière générale, évitez de mettre dans vos documents
 Si des contenus copyrightés ont leur place dans le dossier d'une UV, préférez les liens vers une source externe à l'upload d'un fichier dont vous n'avez pas les droits. C'est par exemple le cas du cours original de nos enseignants.
 
 ### Encodage
-UTF-8 si vous utiliez un éditeur où la question peut se poser. (vim, etc.)
+UTF-8 si vous utilisez un éditeur où la question peut se poser. (vim, etc.)
 
 ### Structure de fichiers
 
