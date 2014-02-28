@@ -1,0 +1,24 @@
+*Vendredi 28 Février 2014*
+
+#Gestion des révisions
+
+Pour l'écriture coopérative des logiciels et de leur documentation. 
+Exemple d'outils de versioning :
+* Subversion
+* Git
+* Mercurial
+
+##Résolution d'un conflit
+
+Un conflit peut être géré automatiquement en créant une branche de la version actuelle sur laquelle on travaillera. Lorsque notre fonctionnalité sera implémentée, on demandera alors de **merge** les deux branches dans la branche *master*. 
+Dans le cas où la même ligne d'un même fichier a été éditée deux fois, il sera nécessaire d'étudier les changements à apporter. 
+
+##Bonnes pratiques
+
+* L'intégration doit être faite... Par l'intégrateur !
+* Les developpeurs privés doivent **fork** les *repos* sur lesquels ils veulent travailler et y **push** leurs travaux. L'integrateur pourra ensuite accepter des **pulls requests** provenants de ces développeurs s'il estime qu'ils peuvent contribuer à l'amélioration de son produit. 
+* 1 révision = 1 besoin. Ni plus, ni moins. 
+* Utiliser les références aux **commits** dans les **tickets** fermés pour créer des références dans les deux sens. Un **commit** peut fixer un bug (ex: *fix bug #56)* et ce **ticket** pourra être consulté pour obtenir des informations sur le bug corrigé. 
+* **Tout n'est pas bon à publier**
+Il est nécessaire d'ignorer les fichiers temporaires et autres fichiers propres à l'environnement de développement. Si ces derniers sont spécifiques à une machine il ne doivent pas être inclus car ils ne sont pas utilisables par tous. Si un fichier de configuration doit être fourni, il doit être un exemple que tout le monde pourra aisément modifier. Idem pour les éventuelles clés, mots de passe ou fichiers compilés. 
+* 1 branche = 1 besoin. Chaque nouvelle fonctionnalité doit faire l'objet d'une branche afin de pouvoir revenir dessus de manière aisée. 

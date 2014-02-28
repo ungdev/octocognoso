@@ -1,0 +1,65 @@
+*Vendredi 21 Fevrier 2014*
+
+#Maitrise d'ouvrage et maîtrise d'oeuvre
+
+Chef de projet != responsable qualité logiciel. Le responsable qualité logiciel est en général extérieur au projet et ne se préoccupe que de définir les normes. 
+
+##Définition de la qualité
+
+* Faire ce que l'on dit (cahier des charges)
+* Respecter des normes
+* Satisfaire le client
+* Donner une vision globale sur les lots (métrique, tableaux)
+* Définir et garantir le niveau de qualité attendue 
+* Suivis des actions (revues), identifier les risques, alertes.
+* Mettre en œuvre des normes de qualité (CMMI)
+* Établir la documentation
+* Veiller à l'avancement
+* Certifier les livrables
+* Participer à la spécification
+* Créèrent exécuter des tests (fonctionnalités) automatisés
+
+#Gestion de projet "traditionnelle"
+
+##Risques
+
+* Décalages dans le planning réalisé
+* Détérioration de la qualité du travail
+
+##Facteurs
+
+* Délais
+* Coûts
+* Qualité
+* Contenu
+
+#Remarque sur les coûts
+
+* Productivité : "object point productivity"
+* Influence proportionnelle
+* Influence exponentielle
+
+#Méthodes agiles
+
+##N'ajuster qu'un seul paramètre
+
+* Le chef de projet n'a pour seul paramètre ajustable le contenu. Les délais, la qualité et le coût sont tous fixes. 
+* Rythme durable
+* Planification itérative (planning game) : pas de dates limites arbitraires, gestion par priorité 
+
+##"Fonctionnels" pour le clients
+
+* "Client sur site" : montrer l'avancée du produit au client régulièrement / le rôle du client peut être joué au cas où il ne peut pas participer au développement 
+* Priorités
+* Tests de recette (acceptance tests)
+
+##"Fonctionnels" pour la machine
+
+* Développement piloté par des tests (unitaires)
+
+###Remaniement
+
+* Responsabilité collective
+* Conception simple
+* Règles de codage (guidelines)
+* Programmation en binôme
