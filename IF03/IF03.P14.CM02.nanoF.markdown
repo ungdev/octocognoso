@@ -1,0 +1,94 @@
+	UV : IF03
+	Semestre : P14
+	Date : 12/03/14
+	Intervenant : AC
+
+#Confidentialite des données 
+
+Seule la cryptographie permet de protéger efficacement les donnees d'une entreprise. 
+Le DICP s'applique lors de l'application de mesures pour la confidentialité des données. 
+
+##Différentes manières :
+* Chiffrement total du disque dur, supports externes et équipements nomades. 
+* Sécurisation des fichiers stockés
+* Securisation de la messagerie : chiffrement des messages afin de signer numériquement les messages. 
+* Sécurisation des données en transit : utilisation de VPNs, du protocole SSH ou encore HTTPS. 
+
+# Protocole HTTPS
+Authentification du serveur basé sur les certificats X.509 validés par des entreprises externes dont le navigateur à connaissance. La confidentialité est assurée par des clés transmises par un chiffrement asymétrique. L'intégrité des données est assurée par le MAC. 
+Ce système est entièrement transparent pour l'utilisateur final. 
+
+# Certificats
+Les certificats permettent de mettre en relation une clé publique avec l'identité du titulaire. Le standard le plus utilisé pour la création de certificats numériques est le X.509. L'obtention d'un certificat est soumise à l'autorité de certification (AC). 
+
+# Cas particulier : OTP
+Le One Time Password est un cas particulier car vraiment inviolable mais très difficile à mettre en œuvre. 
+
+* La clé de chiffrement doit vraiment être aléatoire
+* La clé de chiffrement doit à voir au moins la même taille que le message à chiffrer. 
+* La clé ne doit être utilisée qu'une fois. 
+
+# Les limites de la cryptographie
+* Une clé plus longue ne signifie pas toujours plus sécurisée : un algorithme peut être faillible s'il n'est pas libre. Il n'a donc pas été testé sur sa robustesse. On appelle ça *bannir la sécurité par l'obscurité*. 
+* Un algorithme robuste n'est pas suffisant. 
+* Les générateurs de nombres aléatoires sont souvent de mauvaise qualité : les clés sont donc en partie récupérables. 
+* Les mots de passe utilises sont faibles : il faut sensibiliser les utilisateurs à la longueur et la complexité des mots de passe.
+* Robustesse du matériel
+* Vulnérabilité des utilisateurs
+
+# Sécurité des architectures
+Les réseaux des entreprises étant de plus en plus ouverts vers l'extérieur, elles deviennent également plus vulnérables. Qu'elles soient externes ou internes : 70% des attaques viennent de l'extérieur mais 70% des dégâts sont provoquées en interne. 
+
+Malheureusement la sécurité n'est pas qu'une affaire technique : il faut analyser les risques, les impacts et les politiques/procédures à mettre en place. 
+La sécurité à 100% n'existe pas. 
+
+## Principes de base
+* Cartographier le système d'information : ressources matérielles et applicatives. 
+* Classifier ces actifs en terme de disponibilité et acreditations. 
+
+### Mettre en place une stratégie de défense de profondeur
+* Défense du périmètre
+* Défense du reseau
+* Défense des hôtes
+* Defense des applications
+* Défense des données et autres ressources
+
+### Focus : proxy
+Un serveur proxy est un serveur intermédiaire entre les ordinateurs d'un réseau local et internet public. 
+Il permet également de :
+* Authentifier les utilisateurs
+* Faire une translation d'adresse (NAT)
+* Servir de cache
+
+
+
+### Focus : reverse-proxy
+Un serveur de relai inverse est un serveur intermédiaire entre les ordinateurs voulant de connecter depuis l'Internet et un ou plusieurs serveurs se trouvant sur le réseau interne. 
+Il permet également de :
+* Authentifier les utilisateurs
+* Filtrer les IP entrantes
+* Réécrire les URLs
+* Servir de cache
+* Répartition de charge 
+* Compression des données 
+
+### Notions de zones
+Le principe de base pour sécuriser une architecture est le cloisonnement (réseau, applications). 
+* Zone Externe : toute ressource non contrôlées et non administrées par l'entreprise 
+* Zone Interne : toute ressources facilement sous contrôle de l'entreprise 
+
+### Notion de DMZ
+Zone démilitarisée qui n'est ni publique ni privée.
+
+### Sécurisation de la zone externe
+* Sécurité périmétrique 
+* Sécurité du réseau 
+* Serveurs : antivirus à jour, contrôle d'intégrité, IDS/IPS, durcissement de l'OS, journalisation et corrélation des logs, clustering, redondance. 
+* Serveur de messagerie 
+* Proxy
+* Accès distants
+
+### Sécurisation de la zone interne
+* Sécurité du réseau : étanchéité des Vlans, zones de quarantaines, OS à jour. 
+* Serveurs
+* Postes de travail fixes & nomades

@@ -1,0 +1,40 @@
+	UV : LO10
+	Semestre : P14
+	Date : 12/03/14
+	Intervenant : JPC
+
+# Web Services et applications 
+
+Le cloud peut amener des solutions par rapport à la non-flexibilité que les logiciels traditionnels imposent. Les nombreuses DSI (directions de sécurité) sont alors amenées à être contournées par les employés car trop contraignantes. 
+
+Une activité organisée par les "business process" et workflows va amener l'usage d'applications orientées sur les services. En revanche une activité s'organisant de façon émergente sur les ressources aura besoin d'une application s'appuyant sur les ressources.
+
+## Services Web
+
+Caractéristiques :
+
+* Applications distribuées : portée mondiale
+* Beaucoup d'acteurs
+* Grand volumes de données 
+* Adaptation aux changements : forte modularité 
+* Qualité indispensable
+
+Les web services aident à isoler le client de la logique utilisée pour mener à bien les requêtes. Ils établissent une couche naturelle d'indirection qui rend possible une évolution indépendante des clients et des entités du domaine.  
+
+Ces services doivent s'intégrer au sein d'ensembles faisant sens pour l'utilisateur (ex: portail de services). Ils sont en correspondance avec des étapes de processus de travail ou avec des fragments d'activité basées sur des ressources. 
+
+Chaque service web peut transporter un business model autonome. 
+
+L'approche service est devenue une base du Cloud qui proposée des sévices aux niveaux infrastructure (IaaS), plateforme (PaaS) ou application (SaaS). 
+
+### Standards du Web
+
+* HTML : 1991
+* Web : 1995
+* XML : 1995
+* SOAP v1 : 2000
+* REST : 2000 / popularisé en 2005 / opérationnel en industrie en 2010
+
+## Les Widgets
+
+Service de basant sur des flux RSS ou XML et insérable facilement dans n'importe quel page pour faciliter la mise en forme de contenu. 

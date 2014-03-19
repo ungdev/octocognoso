@@ -1,0 +1,126 @@
+	UV : IF03
+	Semestre : P14
+	Date : 19/02/14
+	Intervenant : AC
+
+# Programme IF03
+
+## Notation
+
+	* Final : 50% (QCM > 6 à points négatifs sur 15 et exercice sur 5)
+	* TP : 25%
+	* Poster : 50%
+
+# 1. Bases de la sécurité
+
+La sécurité est devenue un enjeu majeur car la disponibilité informatique d'une entreprise est primordiale aujourd'hui. Une entreprise sans réseau fonctionnel ne peut plus tourner.
+L'ouverture du marché aux fournisseurs publics a fait baisser les coûts des réseaux.
+La notion de périmètre d'un réseau à disparue car tous les réseaux sont ouverts vers l'extérieur. 
+
+## 2. Système d'information 
+
+Ensemble de moyens permettant d'élaborer, traiter, stocker et diffuser de l'information. 
+Sécurité des SI
+
+Ensemble de moyens techniques, mais aussi organisationnels, juridiques et humains nécessaires pour garantir la sécurité en terme de DIC (Disponibilité, intégrité et confidentialité).
+
+## 2.1 Enjeux
+
+	* Entreprise privée : enjeu sur la disponibilité du service auprès des clients
+	* Services juridiques : enjeu sur le service public et l'ensemble des personnes 
+	* Opérateurs d'importance vitale (OVI) : ensemble de 12 secteurs d'activité ayant des contraintes de sécurité fortes en terme de disponibilité intégrité et confidentialité. 
+
+## 2.2 Vulnérabilités
+
+	* Humaines : proviennent d'erreurs humaines. C'est le maillon faible dans le domaine de la SSI (négligence, manque de compétences, oublis, erreurs de saisie). 
+	* Technologiques : vulnérabilité dans les logiciels. 
+	* Organisationnelles : absence de documents formalisés, procédures et de circuits de validation suffisamment détailles pour faire face aux problèmes de sécurité.
+	* Ségrégation de tâches : les droits alloués aux différents postes ne doivent pas être les mêmes pour sécuriser les postes. 
+
+## 2.3 Menaces
+
+	* Origines naturelles : catastrophes naturelles, épidémies. 
+	* Origines humaines : fuites d'information, malveillance, espionnage, vol, modification, chantage, usurpation d'identités, grèves.
+	* Origines juridiques : nouvelles réglementations, changements administratifs, changements de politique locale. 
+
+## 2.4 Attaques
+
+	* Définition : fait d'exploiter une ou plusieurs vulnérabilités. Il peut y avoir plusieurs attaques pour une même vulnérabilité, mais toutes les vulnérabilités ne sont pas forcément exploitables. Exemple : une vulnérabilité peut être exploitée uniquement en local. 
+	* Types d'attaques :
+	* Attaques passives : écouter sans modifier les données ou le fonctionnement du SI
+	* Attaques actives : modifier, voler ou détruire des données afin de perturber le bon fonctionnement d'un SI, pouvant aller jusqu'au Déni de Service (DDOS). 
+
+## 2.5 Le Risque
+
+	* La Sécurité des SI : gestion des risques un peu comme une assurance. 
+	* Gérer un risque :
+	* Ne rien faire : impact considéré moins coûteux que la mise en place de contre-mesure et/ou la possibilité de survenance est considérée comme très faible voir nulle
+	* Suppression : contre-mesure mise en place contre le risque 
+	* Réduction : mise en place d'une contre-mesure pour redire l'impact 
+	* Transfert : transfert vers une assurance (attaques, e-réputation). On parle de "marbre numerique" lorsqu'une information est dévoilée sur internet. 
+
+## 2.6 DICP
+
+	* Disponibilité : déni de service
+		* Mesure de performance obtenue en divisant la durée durant laquelle ledit système est opérationnel par la durée totale durant laquelle on aurait souhaité qu'il le soit. 
+		* Pannes : DOS & DDOS
+
+	* Intégrité : modification 
+		* État de données qui, lors de leur traitement, de leur conservation/stockage ou de leur transmission ne subissent aucune altération ou description volontaire ou accidentelle.
+		* Pannes : empoisonnement des serveurs DNS (DNS poisoning)
+
+	* Confidentialité : interception
+		* Fait de s'assurer que l'information n'est seulement accessible qu'à ceux dont l'accès est autorisé. Le principe de base est donc qu'une donnée ne doit être accessible que par les personnes qui ont des droits sur cette donnée. C'est le principe du moindre privilège. 
+		* Menaces : négligence humaine. 
+		* Mise en place : attaque du MITM (Man In The Middle) par de l'ARP Poisoning. Un réseau switché n'est pas un réseau sécurisé : un switch bombardé de requêtes se transforme en hub et fait ainsi transiter les paquets sur tout le réseau. Un autre type d'attaque peut provenir du protocole ARP : bombarder les équipements de requêtes ARP pour changer les adresses MAC permet de réceptionner les paquets sur la machine attaquante qui fera transiter les paquets. 
+
+## Requêtes sur un switch :
+
+
+ARP Poisoning :
+
+
+
+	* Preuve : usurpation
+	* 
+		* Avoir la possibilité de remonter jusqu'à l'origine d'un événement et cela de manière sûre et fiable. Inclus la non répudiation : un utilisateur ne peut nier avoir effectué une action. 
+
+
+
+## Authentification
+
+	* Définition : procédure qui consister pour un système informatique a vérifier l'identité d'une entité afin d'autoriser l'accès de cette entité à des ressources. 
+
+
+	* Consiste en au moins 2 éléments :
+
+		* Identifiant
+		* Un ou plusieurs éléments d'authentification (mot de passe, certificat, etc)
+
+
+
+	* 3 facteurs d'authentification :
+
+		* Ce que nous savons (mot de passe, code PIN)
+		* Ce que nous avons (carte a puce, token, i-key)
+		* Ce que nous sommes (empreinte, signature, reconnaissance vocale)
+		* Une authentification forte : utilisation d'au moins 2 facteurs parmi les 3
+
+
+
+# Gestion des risques
+
+	* Comme une assurance
+
+		* Évaluer les risques et leur criticité
+		* Rechercherez et sélectionner les parades
+		* Mettre en œuvre les protections et vérifier leur efficacité 
+		* Le ROI n'est pas évident voir impossible à calculer
+
+	* Méthode d'analyse de risques (voir poly p. 30)
+
+
+Les 11 domaines (ISO 27002)
+
+	* Voir poly p.33
+

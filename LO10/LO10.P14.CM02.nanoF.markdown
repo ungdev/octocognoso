@@ -1,0 +1,27 @@
+	UV : LO10
+	Semestre : P14
+	Date : 19/03/14
+	Intervenant : JPC
+
+# Web Services et applications, architectures SOA (suite)
+
+SOA : Service Oriented Architecture
+
+Le lien entre les processus et les web services. L'organisation de processus et "chroregraphies" de web services. 
+
+> Business Process Model and Notation : système utilisé pour décrire l'interconnexion des services et processus 
+
+Un **moteur de workflow** peut être utilisé pour gérer le cycle de vie et l'exécution de tâches dans des processus complexes. 
+
+## API orientée messages
+
+Des API orientées messages reçoivent à une URI donnée un ou plusieurs messages dont la partie "body" contient les données intéressantes. 
+Optionnellement des headers peuvent contenir des informations supplémentaires tels que cookies ou authentification. 
+
+## Web services et fournisseurs du Cloud
+
+Quelques services AWS (Amazon Web Services) :
+
+* S3 : service de stockage RESTful
+* Simple DB
+* IAM 

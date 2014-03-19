@@ -1,0 +1,114 @@
+	Date : 18/03/14
+	UV : IF08
+	Cours : 1/5
+	Intervenant : SKL
+
+# Rétrospective du mode projet
+
+## Supports de cours
+* **Levan S.**, *Travail collaboratif sur internet*, Paris, Vuibert, 2004 (sur le travail collaboratif en ligne appliqué au mode projet)
+* **Carel G.**, *Le management de projet*, Paris, La Découverte, 2003 (culture générale sur les pratiques du management de projet)
+* **Messager-Rota V.**, *Gestion de projet agile*, 3ème édition, Eyrolles, 2013 (un livre repère pour le chef de projet informatique)
+
+## 1. Petit historique des activités à projet
+
+* Mode routine : même travail effectué en boucle
+* Mode projet : le projet signifie que l'on effectue une tâche que l'on a jamais fait avant
+
+### 1.1 3 étapes
+
+1. Intention : dessein, besoin, idée, envie
+2. Projet : dessin, calcul, conception
+3. Résultat : réalisation, produit
+
+### 1.2 Déroulement
+
+Une activité à projet est un processus suivi d'un résultat :
+
+Besoin/intention => processus de conception => processus de réalisation => résultat
+
+### 1.3 Les 4 figures du projet
+
+* **Projet technique** : né au 16eme siècle 
+* **Projet social** : 18eme siècle, siècle des lumières
+* **Projet existentiel** : 19ème siècle, justification de notre existence sur terre, est-ce que ce que je fais à du sens?
+* **Projet individuel** : 20ème siècle, l'individu doit avoir aujourd'hui un projet personnel. La culture du projet s'impose désormais à tout le monde. 
+
+### 1.4 Différents pôles
+
+**Jean-Pierre Boutinet** développe la **rose des vents** qui décrit comment se recoupent les différents pôles et les projets correspondants. 
+
+* Pôle technique : projets techniques 
+* Pôle sociétal : projets collectifs 
+* Pôle individuel : projets individuels
+* Pôle existentiel : projets existentiels 
+
+## 2. Rétrospective du projet technique 
+
+La **planification** est au cœur de la démarche projet. La planification impose de penser aux moyens techniques mais également à la gestion du temps nécessaire. 
+
+Chaque grand projet à toujours bénéficié à une minorité au détriment de tous.
+
+### 2.1 Planificateurs historiques
+
+* **Vigerano** au XIVe siècle.
+* **Maréchal de Vauban** (1633-1707) : à modelé le paysage français. Il a été le premier a chronométré des temps de préparation de siège pour comprendre comment attaquer et comment défendre. Ses écrits ont formé pendant deux siècles le génie militaire. 
+* **Gantt** (1861-1919) et son diagramme : son principe a été de concevoir un diagramme facile à lire et à comprendre. Son outil de communication se devait d'être simple à l'utilisation pour les ouvriers. 
+
+Diagramme de GANTT en 1917, diagramme de PERT en 1957. 
+
+> Ce sont tous des outils qui facilitent la communication. Le mode projet n'est qu'une forme particulière du mode d'organisation du travail. La planification est la clé de voûte du mode projet. 
+
+> "Comprendre la notion d'activité à projet, c'est comprendre comment on vit le temps." - Boutinet
+
+Il ne faut cependant pas oublier que tout se joue sur le facteur humain. 
+
+### 2.2. Les modèles du projet technique
+- Modèle de l'entrepreneur capitaliste (1930)
+- Modèle de l'ingénierie (1960)
+- Modèle de l'ingénierie *concourante* ou *simultanée* (1990).
+
+Problème de gestion du temps. 
+Vision de l'innovation encore appliquée aujourd'hui. 
+Certification PMI : project management institute 
+
+### 2.3 Modèle de l'ingéniérie repose sur 3 principes
+- Organisation (MOA, MOE)
+- Mobilisation (engagement par des contrats)
+- Coordination (planification)
+
+La contrainte de vitesse est aujourd'hui le seul défi imposé au mode projet par le capitalisme. 
+
+### 2.4 Ingénierie simultanée basée sur 2 principes
+- Plus de travail collaboratif (contrainte du modèle)
+- Plus de vitesse d'exécution (conséquence du modèle)
+
+> Ce modèle est déjà dépassé (années 90). 
+
+### 2.5 21ème siècle : nouveau contexte au-delà de l'ingénierie concurrente 
+
+* Idée + produit = collaboration mode projet
+
+La course est aujourd'hui effrénée pour toujours être le premier sur le marché, en sachant que tous les concurrents ont la même vitesse d'exécution. Il faut désormais prendre de l'avance sur les besoins des consommateurs et anticiper leur besoin. On appelle cela de l'innovation excessive : il faut rendre indispensable et fabriquer un besoin qui au départ était artificiel et deviendra réel pour qu'il puisse trouver des débouchées. 
+
+Attention à la confusion entre la notion de méthode de développement d'un
+logiciel (AGILE, etc.) et les méthodes de management de projet logiciel. Ce
+n'est pas la même notion, ni les mêmes techniques et méthodes.
+
+Un projet informatique de développement logiciel va impacter le fonctionnement d'une organisation et les objectifs de travail de l'entreprise. N'importe quel projet logiciel doit prendre en compte le facteur humain et comprendre leurs attentes. 
+
+Unique dans l'industrie, situation très particulière.
+
+> Système complexe : système avec un taux d'incertitude sur son fonctionnement. 
+
+> Système compliqué : système qui est compréhensible après apprentissage et dont son fonctionnement est planifiable et previsible.
+
+> Systémique : approche de la complexité qui essaye de comprendre l'environnement en tenant compte de son taux d'incertitude. Elle dit qu'un système ne peut survivre dans un environnement complexe que s'il renferme en lui même au moins le même niveau de complexité que celui de l'environnement d'en lequel il se trouve. Ce qui est appliquable à l'homme et à ses organisations du travail. 
+
+* 2% des logiciels fonctionnent dès la livraison.
+* 3% de plus fonctionneront après quelques modifications mineures
+* 20% seront utilisés après des modifications majeures.
+* 45% ne seront jamais utilisés
+* 30% ne seront jamais livrés.
+
+Les projets IT instrumentent.

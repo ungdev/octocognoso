@@ -1,0 +1,126 @@
+	UV : IF08
+	Semestre : P14
+	Date : 11/03/14
+	Intervenant : MK
+
+# Gestion de projet informatique
+
+## 2 types de projets
+* Projet produit : projet pour produire en masse, defini par une etude marketing
+* Projet informatique : projet sur-mesure pour repondre a un besoin, defini par les besoins du client
+
+## Caracteristiques d'un projet informatique
+* Une première évaluation du coût est effectué après analyse de l'objectif. Cet objectif peut varier ainsi que les besoins. Le projet est adapté au coût souhaité (design-to-cost). 
+* Le logiciel étant un produit abstrait, il est décrit par ses fonctions et ses modèles. 
+* Les caractéristiques du projet sont à prendre en compte dans le design du produit à fournir. 
+
+# Définitions générales
+
+## Management de projet
+* Management de projet = conduite : direction + gestion
+* Origine industrielle : des équipes pluridisciplinaires devaient travailler ensemble au sein de l'industrie afin de favoriser les échanges entre les équipes (création du mode projet). 
+
+## Deux aspects du management de projet
+* Organisation / Management : coordination, hiérarchie, communication, conflits. Il est important de gérer le facteur humain (ex : des conflits entre équipes sont tout à fait normaux mais il faut savoir les gérer). 
+* Techniques : application des techniques de gestion de projet (Gantt, Pert) et gestion des risques, coûts et délais. 
+
+## Définition management de la qualité dans les projets (norme ISO10006)
+* Un projet est un processus unique et borné dans le temps. Chaque sous-tâche a également des dates de début et de fin. 
+
+## PMI : Project Management Institut
+* Un projet est une entreprise temporaire visant à créer un projet et/ou un service unique. 
+
+## AFITEP et AFNOR
+* Ensemble d'actions à réaliser pour satisfaire un objet défini dans le cadre d'une mission précisé avec une date de début et de fin. 
+
+## Caractéristiques du management de projet 
+* Objectif précis, quantifié ou spécifie formalisant les besoins d'un client, dans le cadre d'une mission. 
+* Limité dans le temps. 
+* Singularité (un projet n'est pas une reproduction d'un existant). 
+* Micro-organisation disposant de compétences rassemblées pour réaliser les actions nécessaires. 
+
+			   Objectifs 
+		          /\
+		         /  \
+		        /    \
+			   /      \
+		Moyens -------- Délais 
+
+# Les tâches du manager de projet
+* Analyse : découpage des actions à entreprendre et estimation de l'effort nécessaire 
+* Organisation : établir un calendrier, constituer les équipes, mettre en place les outils de partage d'informations 
+* Pilotage : suivi de l'avancement, gérer les conflits, motiver les équipiers. 
+
+## 5 fonctions de base du management de projet 
+* Définition du projet : avant le début de la réalisation, définition du périmètre, utilisateurs, délais, besoins. 
+* Planification
+* Exécution : gestion des ressources, communication, gestion des relations
+* Contrôle : suivi et vérification de l'atteinte des objectifs fixés. 
+* Terminaison : archivage de l'expérience, analyse de ce qui s'est bien ou mal déroulé. 
+
+### Phase de conception
+* Projet avant le projet
+* Définition des objectifs : but du projet, estimation des ressources, coûts, délais, risque et rentabilité.
+
+### Phase de planification 
+* Planifier la réalisation 
+* Mise en place de la structure du projet : définition des responsabilités, tâches, calendriers. 
+
+### Phase de réalisation 
+* Réaliser la planification
+* Amener le projet à sa fin
+
+### Phase de suivi
+* Maîtriser le projet pendant la réalisation : gestion du planning. 
+* Prendre des actions correctives en fonction du retour. 
+
+### Phase de terminaison
+* Préparer les futures planifications. 
+* Archiver l'expérience, le savoir et le savoir-faire. 
+* Permet d'améliorer le déroulement des projets futurs. 
+* Analyse des écarts entre planifié et réalisé. 
+
+# Méthodes
+
+Analyse des points faibles des différentes méthodes existantes. 
+
+## 1er manque : identification des besoins
+* On se focalise plus sur le comment que sur le pourquoi.
+
+## 2ème manque : l'après projet
+Il est important de s'assurer que les utilisateurs finaux vont bel et bien s'adapter au changement et ne pas y résister. Il faut également se focaliser la dessus sinon le logiciel ne sera pas utilisé et le projet sera un échec au final. 
+
+# Risques de dysfonctionnements 
+
+## Mauvaises prévisions
+Les conséquences sont parfois mal anticipées sur l'installation finale du projet.
+
+## Mauvaise organisation
+* Le partage des rôles a été mal défini et les protagonistes se sentent délaissés.
+* Le taux de participation aux projets peut également être flou et les personnes participant à plusieurs projets auront tendance à délaisser certains projets pour d'autres. 
+
+## Mauvaise communication
+* Certaines validations peuvent être implicites et le temps perdu à continuer sur des solutions non validées peut s'avérer important. 
+* Les interlocuteurs concernés qui ne s'impliquent pas par manque de temps ou autre, peuvent faire ralentir le projet. 
+* Le manque de validations ou compte-rendus permet de se dédouaner en cas de problèmes. 
+
+## Engagements mal définis 
+* La gestion des équipes et sous-traitants doit être clairement définie. 
+
+## Risques dans le dialogue MOA/MOE
+* La MOA doit absolument définir et spécifier leurs besoins le plus spécifiquement possible afin que la MOE n'avance pas dans un chemin qui ne correspondra pas au final aux attentes de la MOA. 
+* La MOA doit aussi tenir compte des contraintes techniques qui sont remontées par la MOE afin de ne pas tomber dans un cercle sans issue. 
+
+# Bonnes pratiques dans l'organisation de projet
+
+## Axe 1 : Organisation de projet
+Il est important de s'avérer être souple dans l'organisation du projet et tenir compte des éventuels problèmes rencontrés. 
+
+## Axe 2 : Dynamiser la coopération
+Remplacer la coordination des tâches par la synchronisation des rôles. 
+
+## Axe 3 : Anticiper
+Il ne faut pas de contenter de contrôler et mesurer les delais/coûts, mais également intégrer les enjeux. Il faut viser l'amélioration continue et anticiper les risques d'échec. 
+
+## Axe 4 : Faciliter l'intégration des applications mises en œuvre 
+Intégrer les projets dans la chaîne de valeur globale de l'organisation (alignement stratégique), ainsi que les coûts directs et indirects de l'intégration dans le budget du projet. 

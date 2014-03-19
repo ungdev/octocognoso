@@ -1,0 +1,80 @@
+	UV : IF03
+	Semestre : P14
+	Date : 19/03/14
+	Intervenant : AC
+
+# Sécurité des architectures web
+
+Toute entreprise possède au moins une application web. Elles utilisent des technologies standards et minimalistes : HTTP/HTTPS et HTML. 
+L'ouverture du SI sur le web est souvent inévitable. 
+
+## 1. Les deux grands vecteurs d'attaque
+
+* Attaques sur les applications web
+
+Ouvrir une application sur internet peut rendre vulnérable le SI. 
+
+* Attaques sur les navigateurs web
+
+Le simple fait d'être sur une page web peut suffir à se faire infecter. La plupart des attaques peuvent venir suite à des plugins navigateurs ayant des failles (ex Acrobat Reader).
+
+### Mythes
+
+* Un développeur ne fournira pas une solution sécurisée : il attendra une faille pour la patcher. 
+* Un site web n'est pas forcément sécurisé s'il est protégé par SSL : il peut été chiffré et malveillant. 
+* Un site web n'est pas forcément sécurisé même s'il est situé derrière un pare-feu : les firewalls d'infrastructure agissent sur les couches 3 et 4 (couches basses réseau) du modèle OSI or le plupart des attaques agissent sur les couches applicative (couches hautes). Il ne s'agit donc que d'un simple filtrage. 
+* Une faille sur une application interne   importante : un utilisateur utilisant un navigateur exposé à une faile pourrait se faire infecter sur un site externe et ce dernier pourrait y avoir accès. 
+
+## 2. Les application web sont exposées
+
+Les formulaires et autres composants JavaScript peuvent contenir des failles qui seront exploitées. Idem pour les composants externes tels que ActiveX, Applets Java, plugins navigateurs, etc. 
+Le HTTP peut désormais être encapsulé dans des protocoles évolués et ainsi être moins exposé. 
+
+### 2.1 Ajax
+
+Ajax n'est pas une technologie en elle même mais un terme qui évoque l'utilisation conjointe d'un ensemble de technologies. 
+
+* HTML
+* CSS
+* DOM
+* XML
+
+Ce mix de technologies peut augmenter fortement le risque de vulnérabilités dans chaque technologie impliquées.
+
+### 2.2 JavaScript
+
+Ce langage de programmation de script permet d'écrire des scripts indépendants des OS et des navigateurs. Il est également la source de failles et d'utilisations malveillantes. 
+
+> Pouvons nous vivre sans JavaScript à l'heure actuelle?
+
+## 3. Sécuriser une application web
+
+* Authentification : identification nécessaire pour utiliser l'application 
+* Habilitation : ségrégation des tâches, chaque profil doit avoir des droits différents 
+* Confidentialité : aucune données ne doit être divulguée à un utilisateur non habilité
+* Intégrité : garantir le contenu des données 
+* Non répudiation : aucun utilisateur ne peut nier avoir effectué une action
+
+## 4. Exploitation des vulnérabilités
+
+* Interception et réutilisation de données (lan, wifi, cybercafé). 
+
+### 4.1 Injections SQL
+
+Injection dans les zones non désirées de requêtes SQL. 
+
+* Utilisation des paramètres d'une application dans le but d'altérer les requêtes SQL. 
+* Récupération de données non désirée
+
+### 4.2 Modification des URLs
+
+Modification des URLs afin d'altérer les données et/ou le fonctionnement de pages.
+
+Générer une page d'erreur sur un serveur web peut permettre d'obtenir des informations critiques pour l'exploitation du serveur. 
+
+### 4.3 Mauvais contrôle des données entrées par l'utilisateur
+
+* Utilisation de caractères spéciaux dans une URL pour essayer de naviguer dans l'arborescence du serveur. 
+* L'injection de requêtes SQL est une des conséquences directes de cd mauvais contrôle
+* Dépassement de buffer (buffer overflow)
+* Mécanismes d'authentification bases sur Java, JavaScript, ActiveX, etc. 
