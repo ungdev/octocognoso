@@ -1,0 +1,120 @@
+	UV : IF05
+	Semestre : P14
+	Date : 18/04/14
+	Intervenant : XX
+
+# Interactions entre utilisateurs et systèmes
+
+## QoE/QoX vs QoS (Quality of Experience vs Quality of Service)
+
+QoE permet de mesurer la satisfaction utilisateur envers un produit ou un service. 
+
+La qualité du couplage entre un utilisateur (ou groupe) et un système interactif dépend de plusieurs facteurs :
+
+* Caracteristiques perceptives et cognitives de l'utilisateur (tenir compte des capacités motrices et intellectuelles de l'utilisateur : jeu éducatif vs jeu senior)
+* Propriétés interactionnelles du système technique (qualité des interactions avec l'utilisateur : ligne de commande? Interface?)
+* Contexte d'interaction (conditions dans lesquelles se fera l'interaction : lieu, sonorité, confort, etc)
+* Autres variables avec des conséquences pas forcément prévisibles
+
+## Types de cas problématiques :
+
+* Commandes dont le fonctionnement n'est pas celui qu'on attend
+* Supports d'affichages / commandes différents mais qui sont trop semblables
+* Informations trop difficiles à voir / interpréter
+* Objets difficiles à manipuler
+* Informations / commandes difficiles à mémoriser
+* Informations trop longues à s'afficher (l'utilisateur n'aime pas attendre, et lorsque l'attente est trop longue, l'utilisateur commence à faire autre chose et donc perturbe le bon fonctionnement du systeme)
+* Informations qui ressemblent à des commandes
+* Commandes placees de manière inattendue
+* Commandes disposées trop loin des dispositifs qu'ils contrôlent
+* Commandes cachées
+* Commandes "destructrices" trop simple à activer
+
+## Utilité et utilisabilité
+
+* Utilité : propre à la vision ergonomique liée à la notion de besoin fonctionnel (existence de points de vue différents : cf approches marketing). 
+
+* Utilisabilité : notion faussement simple qui intègre plusieurs facettes et determinants. 
+
+	* Efficacité : représente ce que produit l'effet attendu par l'utilisateur. Elle concerne la précision ou degré d'achèvement selon lesquels l'utilisateur atteint des objectifs spécifies. 
+	* Efficience : représente la capacité à réaliser une tâche donnée avec le minimums effort : plus l'effort est faite. Plus l'efficience est élevée.
+	* Satisfaction : initialement notion "fourre-tout", mal spécifiée, appréhenda le selon des méthodes approximatives. 
+
+## Quality of Use
+
+Le concept de qualité d'usage permet de faire une distinction entre les qualités intrasèques du produit et sa manière d'interagir avec l'utilisateur.
+
+Quelles composantes?
+
+* Compréhension
+* Apprentissage
+* Operabilite
+* Attractivité : attirance propre à l'utilisateur envers un produit plus qu'un autre
+* Conformité aux standards
+
+## Utilisabilité et qualité à l'usage
+
+Notions proches mais des modalités d'évaluation pas fofçdmdng superposables
+
+* Utilisabilite : évaluation "experte" et/ou tests utilisateurs
+* QofU : test utilisateurs
+
+### Inspection ergonomique
+
+* Conditions de l'utilisabilite d'un système interactif : respect de critères (ergonomique senti,skiables pour la conception et l'évaluation des dispositifs
+* Tentative d'assemblage opérationnel de résultats de travaux expérimentaux dispersés
+* Organisation d'un corps de recommandations existantes
+* Mise en œuvre des critères d'évaluation lors de l'analyse d'une IHM doit permettre de se passer de tests utilisateurs
+* Applicables par des non spécialistes : discount method
+* Niveau d'explicitation suffisant pour permettre des mesures
+* Niveau de standardisation suffisant pour permettre la replicabilité de la démarche
+
+## Tests utilisateurs (utilisabilite et QofUse)
+
+* Inspection ergonomique basée sur les critères ne se substitue pas à d'autres methodes d'évaluation (tests utilisateurs)
+* La "qualite" ergonomique du système va être évaluée par des mesures de performance de l'usage du dispositif
+
+### Elaborer un test utilisateur
+
+* Definir les objectifs du test
+* Choisir et recruter les participants
+* Sélectionner et organiser les tâches à réaliser
+* Créer des scénarios de test
+* Choisir quelles dimensions de l'utilisabilite évaluer
+* Preparer le matériel et l'environnement de test
+* Choisir les expérimentateurs 
+* Conduire le test (consignes, accompagnement, interventions)
+* Développer et faire passer des questionnaires de satisfaction
+* Analyser les données
+* Présenter les résultats
+
+Normes des tests utilisateurs choix des méthodes, format des CR : 
+
+* ISO/IEC 25062: 2006 ; ISO 16982
+
+## Mesures et analyse de données
+
+* Efficience : Taux de réussite / temps de réalisation
+
+## Évolution progressive
+
+Qualité de l'interaction :
+
+* Utilisabilité
+* Qualite à l'usage 
+* qualité de l'expérience utilisateur 
+
+## Au delà de l'utilisabilite classique 
+
+* Le respect des critères ergonomiques et de bons résultats à des tests utilisateurs garantissent ils la qualité ergonomique d'un système ? Son succès commercial ?
+
+* Même avec l'enrichissement des dimensions d'évaluation : incapacité à rendre compte de certains résultats
+	* visioconférence vs audioconférence
+	* échec commercial de certains produits grand public
+	* refus d'utilisation de systèmes d'aide à la décision dans environnements critiques
+
+## User experience
+
+Notion de valeur ajoutée. 
+
+Ce genre de test se déroule souvent dans un contexte et lieu particulier et sur du long terme. 

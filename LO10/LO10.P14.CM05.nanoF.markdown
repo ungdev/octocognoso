@@ -1,0 +1,115 @@
+	UV : LO10
+	Semestre : P14
+	Date : 09/04/14
+	Intervenant : AB
+
+http://www.imdb.com/title/tt1843866/?ref_=hm_ad_t3
+http://www.imdb.com/find?q=Avengers&s=all
+http://www.allocine.fr/film/fichefilm_gen_cfilm=193113.html
+http://www.allocine.fr/salle/recherche/?q=Bibliothèque
+
+# REST : Un style d'architecture pour les services Web
+
+Une ressource n'est pas obligatoire un objet au sens atomique. 
+
+Il est peu recommandé d'utiliser des verbes dans les URI. 
+
+Au lieu de /recherche/?q=voyage il serait préférable d'utiliser /film?q=voyage car cela serait plus compréhensible dans le cas d'un échange de liens. 
+
+Toutes ces discussions sur la forme des URI ne sont pas vraiment un problème car elles sont censées êtres "opaques". 
+
+Cela n'a pas de sens pour une ressource d'avoir une extension de fichier dans le lien. Le jour où le format change, le lien sera forcément cassé.
+
+Négociation de contenu (conneg). 
+
+Les liens référants qui ajoutent du contenu à la fin d'un lien pour suivre l'évolution du visiteur n'a pas de vrai sens en lui même : il sera facile de fausser ces statistiques puisque si l'on partage ce lien, l'état n'est plus représentatif de la situation réelle. 
+
+N'importe quel site web peut se révéler être un service web. Grâce à la négociation de contenu, une même ressource peut être obtenue sous la forme d'une page html pour un navigateur, mais aussi au fiant XML ou JSON. 
+
+## Faites le avec style
+
+* **S**imple **O**bject **A**ccess **P**rotocol
+
+*Ressource = "boîte aux lettres"* 
+
+* **RE**presentational **S**tate **T**ransfer
+
+*Ressource = "object du métier"*
+
+L'approche REST est bien plus orientée objet que SOAP.
+
+Site web de l'IETF : Internet Ingeneering Task Force. Permet de consulter les définitions du protocole HTTP. 
+
+## Le protocole HTTP
+
+HTTP/1.1 devient un protocole générique et sans état. Il est constitué de nombreuses méthodes telles que GET, POST, PUT ou DELETE. 
+
+### Différents types de méthodes
+
+#### Méthode safe
+
+Une méthode "safe" est une méthode qui ne modifiera pas le contenu du serveur, ou en tout cas pas dans un but intentionnel. GET et HEAD peuvent être considérées comme des méthodes sûres. GET n'ayant pour but que de récupérer du contenu. 
+
+#### Methode idempotentes
+
+Une requête identique effectuera toujours la même action (côté serveur). 
+
+#### Méthode DELETE
+
+Gère la suppression d'une ressource. 
+
+#### Méthodes POST & PUT
+
+POST va signifier la création d'une ressource au sens large , avec un identifiant généré par le serveur, alors que PUT signifie la création d'une ressource et d'un identifiant manuellement. 
+
+#### CRUD
+
+On parle alors des opérations de base d'une base de données en REST :
+
+* **C**reate
+* **R**etrieve
+* **U**pdate
+* **D**estroy
+
+### HTTP Status
+
+HTTP permet d'obtenir un retour sur les méthodes envoyées grâce à un code qui correspond à un status. 
+
+100 : info
+200 : réussite
+300 : redirection
+400 : erreur client
+
+* 400 : bad request
+* 401 : unauthorized
+* 403 : forbidden
+* 404 : not found
+* 405 : method not allowed
+
+500 : erreur serveur
+
+* 500 : internal server error
+* 502 : bad gateway
+* 503 : service unavailable
+* 504 : gateway timeout
+
+## Quels formats?
+
+* application/xml
+* application/x-www-form-url-encoded
+* multipart/form-data
+* application/json
+* application/x-yaml
+
+## Avec HTTP?
+
+* Négociation de contenus : formats, langues, compression. 
+* Gestion du temps : cache, concurrence des modifications. 
+
+## Entêtes HTTP
+
+Les entêtes HTTP permettent de spécifier de nombreuses options. 
+
+* Négociation de contenu (ex : langue, compression, etc). 
+* Cache : demander au serveur si la ressource a été modifiée depuis la dernière demande (ex: "Id-Modified-Since:..."). Le serveur renvoie alors le contenu avec un code 200 ou le code 304 dans le cas contraire.
+* Modifications concurrentes : gestion des versions avec les etags. Erreur 409 en cas de conflit de modification. 

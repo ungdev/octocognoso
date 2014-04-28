@@ -1,0 +1,47 @@
+	UV : LO10
+	Semestre : P14
+	Date : 23/04/14
+	Intervenant : AB
+
+
+# La sécurité dans le nuage
+
+## IaS, PaS, SaS
+
+Infrastructure as a service, platform as a service, software as a service. 
+
+Que mutualise-t-on ?
+
+* L'OS et la machine sur un IaS.  On laisse au développeur le choix de l'environnement d'exécution, l'API qu'il utilisera et l'IHM qu'il mettra en place.
+
+* L'API et l'IHM sur un PaS. 
+
+* Uniquement l'IHM sur un SaS car on n'utilise plus que le soft comme service. 
+
+## Fournisseurs
+
+Linux s'impose ces dernières années comme l'OS le plus utilisé sur le cloud. La plupart des solutions sont basées sur de l'open source. Amazon, Google et Microsoft sont les acteurs les plus influents sur ce marché.
+
+La plupart des ces services sont gratuits en dessous d'un certain seuil d'utilisation.
+
+## Architectures clients-serveurs
+
+* Authentification simple (401) : le login et le mot de passe sont encodés avant d'être envoyés dans la requête. Si le réseau n'est pas crypté n'importe qui peut voir les identifiants passer sur le réseau. 
+
+* Authentificiation "digest" (par empreinte) : un hash est effectué sur les identifiants avant d'être envoyés sur le serveur. Le problème est que cette empreinte est réutilisable même si on a pas le mot de passe d'origine. De plus cette empreinte peut être remontée grâce à des bases de données de mots de passes volés, avec leur empreinte associée. Dans un cas plus avancé, le hash peut être constitué du login, du mot de passe et du realm. "Nonce" est un identifiant unique utilisé pour rendre chaque requête unique. 
+
+* Cryptage par HTTPS (couple clé publique - clé privée) : permet de crypter les requêtes et les réponses. 
+
+## Architecture 3-tiers classique (passerelle)
+
+Il est possible de passer par un prestataire intermédiaire afin de s'authentifier chez lui, et il me redirigera au service avec un jeton. 
+
+## Architecture Ajax
+
+Le code client et le service devient entièrement accessible sur le poste client : gros risque.
+
+La technologie [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) (cross-origin resource sharing) permet d'autoriser au cas par cas depuis les serveurs les provenances des scripts qui demandent d'interagir avec des données externes. 
+
+## Bibliographie
+
+RESTful Web Services, Oreilly

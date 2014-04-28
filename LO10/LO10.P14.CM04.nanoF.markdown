@@ -1,0 +1,73 @@
+	UV : LO10
+	Semestre : P14
+	Date : 02/04/14
+	Intervenant : AM
+
+# Retour sur l'historique de l'importance de REST
+
+## 1. Le Web : un hypertexte ?
+
+Est-ce que le web n'est qu'un lien de documents hypertextes (statiques) ?
+
+Un modèle de visualisation nous amènerait à voir le web sous formes de bulles reliées entre elles.
+
+Une URL aujourd'hui est divisée en plusieurs parties et permet d'analyser le chemin où l'on accèdera. D'où l'expression d'Internet d'adresses. 
+
+L'extension de fichier qui est une metadonnée indiquant avec quel programme il doit être ouvert est totalement indispensable sur internet car cette donnée est imbriquée dans l'entete du protocole d'accès http.
+
+Une URL n'est pas non plus une adresse physique au sens d'une adresse IP. Le DNS en lui même pointera sur un serveur différent mais l'adresse restera la même. 
+
+Lors de la refonte d'un site web, il est très important de garder les liens. Dans le cas contraire, tous les liens précédents pointeront sur des liens cassés. 
+
+Remèdes possibles à ce problème :
+
+* Anxiome d'opacité du web : la seule chose à utiliser dans une adresse est un identifiant pointant sur un objet et non pas de structure de fichier.  
+* URL rewriting : module des serveurs Apaches permettant de réécrire les URL. 
+
+Les principes de design qui sont les principes sous-jacents du web doivent promouvoir des URL dynamiques qui ne pointent pas sur des structures statiques. 
+
+## 2. Retour sur quelques principes du Web
+
+Les URL dépendant des href (balises HTML) qui est un indentifiant faisant référence à un objet. 
+
+Le web à l'origine, tel que présenté au CERN, présentait les liens comme des liens unidirectionnels qui font référence à un objet. On parlera alors de "web semantique" en 1994 lors de la conférence WWW. 
+
+### Web sémantique :
+
+* Principe AAA (linked data) : anyone can say anything about anything
+
+Le fait de pouvoir designer n'importer quoi permet ensuite de lien n'importe quoi. 
+
+## 3. Le rôle historique de REST
+
+3 éléments qui sont la base d'Internet :
+
+* Couche de nommage : identification (URI) & adressage (URL)
+* Protocole de transfert HTTP
+* Langage de représentation (HTML)
+
+TAG : Technical Architecture Group
+
+Une URI n'est jamais égale à une "page". Lors de la négociation entre client et serveur, ce dernier va définir la page à retourner. C'est ce qu'on appelle un forerunner (System 33). Un identifiant peut donc correspondre à plusieurs documents au fur et à mesure que la base de données évolué (Conneg). 
+
+UDI : Universal Document Identifier. Permet de palier aux déplacements physiques du documents en éliminant les détails superflus contenus dans l'adresse. 
+
+On cherche des principes qui s'abstraient du principe de stockage.
+
+URI : Uniform Ressource Identifier. Distinct du chemin d'accès, c'est un lien global et abstrait des spécificités techniques par lesquelles l'accès est géré localement. 
+
+Si les URI sont également des URL (Uniform Ressource Locator) alors ce sont des objets accessibles en ligne. 
+
+Entre 1995 et 2000, les grands principes de design du web sont mis à jour et cela deviendra l'architecture REST. C'est une thèse émise par Roy Filding entre 1995 et 2000. Ces grands principes de l'architecture du webs sont désormais stables et nous utilisons des versions datant de pré 2000. 
+
+### Les ressources
+
+L'URL qui permet d'accéder à une représentation et URN qui permet d'accéder à une ressource ont été fusionnées pour pouvoir accéder à des ressources appellés inobservables. 
+
+REST : representational state transfer
+
+### REST ?
+
+* Ressource
+* État de la ressource
+* Représentation de l'état de la ressource 

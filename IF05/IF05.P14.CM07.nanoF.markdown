@@ -1,0 +1,55 @@
+	UV : XXXX
+	Semestre : XXX
+	Date : XX/XX/14
+	Intervenant : XX
+
+## Normes de qualité logicielle :
+
+* Utilisabilité
+* Testabilité
+* Reutilisabilité
+* Portabilité
+* Efficacité
+* Modifiabilité
+* Fiabilité (sous la charge)
+
+## Quel serait du "bon code" ?
+
+* Compréhensible
+	* Simple
+	* Sans détours
+	* Lisible
+
+* Fonctionnel
+	* Sans Bugs
+
+* Intellectuellement stimulant
+	* Détournement de caractère directif du langage (créer de nouvelles fonctionnalités grace à ce qui a été prévu à la base)
+	* Le moins de ko possibles (réduire la taille totale : écho à la demo scène des années 80-90)
+	* Obfuscation
+
+## Pretty Code vs Fucking Mess
+
+### Pretty Code
+
+* Manageable
+* Elegent
+* Understandable
+* Well documented
+* Superb documentation
+* Rewritten
+* Tested
+* Secure
+
+### Fucking Mess
+
+* Hardcoded
+* Nasty loops
+* Memory leaks
+* Craft
+* Unreadable
+* Détournement & imprévisible : peut amener des failles
+* Homogenous library
+* Comments lie
+
+SonarQube : outil d'analyse du code. 

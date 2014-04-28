@@ -1,0 +1,127 @@
+	UV : IF08
+	Semestre : P14
+	Date : 25/03/14
+	Intervenant : ER, Euriware
+
+# Introducgion à la méthode agile Scrum
+
+## Les avatars des projets IT
+
+* 30% des projets sont abandonnés
+* 2/3 des projets dépassent leurs budgets
+* 64% des fonctionnalités sont au final non utilisées 
+* 100% de dépassement du temps imparti pour les projets en retard 
+
+## Conférence NATO sur le software engineering en 1968
+
+Les développements de projets informatiques utilisent désormais beaucoup de termes empruntés au génie civil et bâtiment. 
+
+> La mésaventure de Dr Winston ROYCE
+
+Sur un malentendu, un de ces documents détaillant la planification de projet en cascade s'imposera dans l'industrie alors même qu'il le présentait comme un contre exemple en le présentant comme un échec car trop risqué. 
+
+## Cycle en V
+
+Le cycle en V où cette fameuse cascade se replie sur elle même introduit une étape de validation qui permet de faire remonter les éventuels problèmes rencontrés. 
+
+### Problèmes du cycle en V
+
+Ce cycle impose un temps de réflexion important au départ car il nécessite une spécification détaillée des besoins, or l'étape de développement amène bien souvent des modifications, sans parler des tests et recettes où l'on est souvent bien loin de ce que le client souhaitait.
+
+### Contractualisation type
+
+Un mode forfaitaire est souvent utilisé : suite à un appel d'offre, le prestataire s'engage à réaliser la demande du client telle que décrite pour le montant et dans le calendrier convenu. 
+
+#### Implication
+
+Le prestataire veut connaître le cahier des charges de manière détaillée. 
+Tout écart au cahiers des charges initial est tracé et le prestataire les facturera sous forme d'avenant.
+
+## L'approche prédictive
+
+> Méthode traditionnelle : processus centré sur la documentation, elle est le témoin pour le passage de relai. 
+
+## Approche nouvelle : prendre en compte le chaos
+
+> Encadrer un processus empirique 
+
+![The Spectrum of Process Complexity](http://4.bp.blogspot.com/-2sGoOkNTqdg/UMTkJu68X6I/AAAAAAAAAMs/782GBzlwEXs/s1600/Figure%202.jpg)
+
+## Presentation des méthodes agiles 
+
+![Manifesto for Agile Software Development](http://logicboost.com/images/agilemanifesto.jpg)
+
+L'approche agile revient à toujours prendre en compte le feedback utilisateur pour ne pas avancer aveuglément vers une cible qui au final ne sera pas la bonne. 
+
+![Agile VS Waterfall](http://www.agileenterprises.com/Content/images/value-proposition-agile-and-waterfall.png)
+
+# SCRUM
+
+### 3 rôles
+
+* Product owner : fait les choix, définit et priori de les fonctionnalités, garant du délai et coût. 
+* Scrum master : leader serviable, protecteur de l'équipe, guide scrum, empêche les interruptions et supporte le processus. 
+* Équipe pluridisciplinaire : de petite taille, auto organisée et définit elle-même les tâches. Elle développe le produit et s'assure de la qualité de celui-ci. 
+
+### 4 cérémonies
+
+* Planification de sprint
+* Revue de sprint
+* Rétrospective
+* Scrum meeting journalier
+
+### 3 outils
+
+* Backlog produit : liste des produits triés par ordre de priorité. 
+* Backlog d'iteration 
+* Burndown chart
+
+## Sprint 0
+
+Le premier sprint du Scrum est particulier : il est généralement plus long, il inclut le backlog, la priorisation et les outils de dev. 
+
+## Sprint
+
+Un sprint standard dure en moyenne 2 semaines. 
+
+## Définition du terminé
+
+Les éléments sont réputés terminés lorsqu'ils sont testés sont opérationnels dans le logiciel. 
+
+## Sprint Meeting journalier
+
+Avec toute l'équipe, à heure fixe chaque matin, tout le monde pendant 15 minutes va revenir sur ce qu'il a fait la veille, quels sont ses obstacles et ce qu'il fera aujourd'hui. Le tout est animé par le Scrum master.
+
+## Organistion générale du processus Scrum
+
+![Scrum Process](http://blog.optimalbi.com/wp-content/uploads/2013/12/scrum_process_big3.jpg)
+
+# Specifications agiles
+
+## Expression du besoin en agilité
+
+Sous forme de user story, plutôt sur sous forme d'exigences ou cas d'utilisation. 
+
+> En tant que "Rôle" je veux que "Action" afin de "Besoin"
+
+![3C](http://dheerajrastogi.files.wordpress.com/2012/06/fig3.jpg)
+
+Les 3 C :
+
+* Carte : synthétique
+* Conversation : entre l'utilisateur et le product owner
+* Confirmation : scénarios de tests
+
+Une bonne user story est INVEST :
+
+* I : indépendant
+* N : négociable
+* V : valeur ajouté
+* E : estimable
+* S : sufisament petite (small)
+* T : testable
+
+## Contractualisation type
+
+Agile au forfait : réalisation à budget contraint. 
+Contractualisation en engagement conjoint : réalisation sur la base de la satisfaction client. 

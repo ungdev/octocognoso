@@ -1,0 +1,66 @@
+	UV : LO10
+	Semestre : P14
+	Date : 16/04/14
+	Intervenant : AB
+
+# MapReduce à la rescousse de REST
+
+MapReduce a été inventé en 2004 par Google pour son moteur de recherche. 
+
+Problèmes rencontrés : sur des bases de données de plusieurs dizaines de milliers d'objets, il n'est pas pensable d'effectuer autant de requêtes pour récupérer les données. Il est nécessaire de réduire le volume de données
+
+Objectifs :
+
+* Réduire la taille : petites ressources
+* Mettre en cache : petites ressources
+* Éviter les conflits : petites ressources
+* Réduire la latence : grosses ressources
+
+## Objets et vues : deux types de ressources Web
+
+Les ressources à l'écriture et à le lecture ne sont pas les mêmes : objet pour l'écriture, vue pour la lecture. 
+
+Map : pour la même entrée, la fonction Map produira la même sortie. Cela permet de faire du cache au niveau de l'objet métier (niveau très fin). Elle renvoie un ensemble de réponses sous la forme clé:valeur. Elles seront triées de façon automatique en fonction de la clé. 
+
+Reduce : la réduction est une agrégation de valeurs. Pour une clé, on ne veut qu'une seule valeur. 
+
+## Retour vers le futur
+
+### La Mécanographie
+
+Base de la mécanographie : les cartes perforées. Avec une **perforatrice de cartes**, on inscrit des codes tels que code produit, quantité, etc. 
+
+80 colonnes, 80 informations. Les valeurs sont établies à partir d'un tableau de code. 1 chiffre : p colonnes. 1 lettre est la combinaison de deux colonnes. 
+
+Une **traductrice** permet d'écrire en toutes lettres sur une carte sa correspondance. 
+
+Une **trieuse** permet de trier les cartes colonnes par colonnes : 10 casiers. 
+
+Une **interclasseuse** effectue un apérage, permettant de mettre à jour les fiches produits avec les fiches de mouvement de stock par un système dit de collation. 
+
+La **tabulatrice** lit les cartes, effectue les calculs et sort des cartes récapitulatives.
+
+Mettre les trieuses en parallèle permet de diviser par autant de machines la complexité nécessaire au tri. En temps normal il est de k(nb de colonnes)*n(nb de cartes). Il passe à (k.n)/2 dans le cas où on a deux machines car le temps de tri reste le même. Ça devient intéressant dès que k > 2. 
+
+## Cache
+
+Le grand avantage de mapReduce est sa capacité à faire de la mise en cache de calculs et de valeurs intermédiaires. Lors d'une mise à jour, on va effectuer le calcul de la nouvelle valeur uniquement sur l'objet qui aura changé. 
+
+## Avantages
+
+* Définitions de clefs
+* Tri des clefs (indexation)
+* Mise en relation des clefs se référençant
+* Agrégation des données 
+
+Dand MapReduce, les **clés sont définies** lors de la définition d'une vue, à l'inverse du modèle relationnel où les clés sont définies à la création de la table.
+
+Le **tri des clés** dans le modèle relationnel se fait à l'insertion (goulot d'étranglement du modèle relationnel) tandis que dans MapReduce le tri est effectué à la lecture par lot. 
+
+La **mise en relation des clés (interclassèrent ou collation)** est effectué pour tout le lot dans MapReduce alors qu'il est effectué uniquement pour la requête demandée (jointure) en modèle relationnel. 
+
+L'agrégation est effectué par la tabulatrice, sur le lot en entier. Le MapReduce lui le fait lors du Reduce alors que le modèle relationnel le fait lors de l'agrégation, limitée à la requête. 
+
+La parallélisation est simple à mettre en œuvre en mécanographie et dans MapReduce car quasiment chaque étape est parallelisable, alors que c'est très compliqué voir impossible dans le modèle relationnel. 
+
+La mise en cache dans la mécanographie est effectuée par les cartes récapitulatrices du lot. Dans le modèle relationnel il est très compliqué, il faut effectuer une vue spéciale. Dans MapReduce il est aisé de mettre en cache les calculs intermédiaires. 

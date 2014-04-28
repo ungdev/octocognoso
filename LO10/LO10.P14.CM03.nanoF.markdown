@@ -1,0 +1,81 @@
+	UV : LO10
+	Semestre : P14
+	Date : 26/03/14
+	Intervenant : XX
+
+# Format XML
+
+Utilisé pour :
+
+* les applications "client riche" et les formulaires interactifs façon AJAX
+* la représentation de contenu de catalogue
+* la sémantique des contenus 
+* la syndication (aggregation) de contenus
+* les services web
+
+Un document XML est un document texte dans lequel on a inséré des balises. 
+
+`<text>Ceci est un <typedocument>document XML</typedocument></text>`
+
+## Structure d'un document XML
+
+* Prologue : déclaration de schéma XML ou de DTD (Document Type Declaration), ainsi que d'éventuelles déclarations spécifiques pour les applications utilisant le document.
+
+![Prologue XML](https://www.ischool.utexas.edu/technology/tutorials/webdev/xml_dtds/images/xml_anatomy.jpg)
+
+* Attribut :
+
+`propriété = valeur`
+
+`<poids>`
+	`<nombre>12</nombre>`
+	`<unit>gramme</unit>`
+`</poids>`
+
+* Processeur validant
+
+Un processeur validant va vérifier la structure du document XML. Le document est vérifié selon la définition formelle (DTD) que les documents doivent respecter.
+
+> La DTD peut être interné au fichier XML ou externe sous la forme d'un fichier *.dtd
+
+<!DOCTYPE bibliotheque SYSTEM "biblio.dtd">
+
+### Exemple de DTD :
+
+<!ÉLÉMENT catalogue (voiture)*>
+<!ÉLÉMENT voiture (marque*, modele*)>
+<!ÉLÉMENT modèle (type*)>
+<!ÉLÉMENT type (moteur)>
+<!ÉLÉMENT marque(#PCDATA)>
+<!ELEMENT moteur(#PCDATA)>
+
+## Les mécanismes de contrôle
+
+Le processeur XML vérifie la bonne structure du fichier XML tout en s'assurant qu'il répond bien aux critères définis par la DTD. 
+
+## Espaces de noms (namespaces)
+
+L'utilisation de namespaces est pas obligatoire mais permet d'éviter les collisions lorsqu'on fusionne des éléments de mêmes domaines d'activité provenant de différentes sources.
+
+## Quelques extensions de XML
+
+* SOAP : protocole utilisé pour échanger des messages dans les services web
+* WSDL : web service description language
+* SMIL : synchronized multimedia integration language
+* WML : wireless markup language, le language de balisage pour l'Internet mobile
+* etc.
+
+Couplé aux DTD (ou aux schémas XML), les espaces de noms sont le moyen à utiliser pour faire appel à une extension. 
+
+## Affichage du XML
+
+* Avec CSS : un fichier XML sera interprétée graphiquement grâce à sa feuille de style CSS. 
+* Avec XSLT : le style est directement intégré dans un fichier XSLT nommé eXtensible Stylesheet Language Transformation. 
+
+## XPATH
+
+Extensions de XML permettant de définir des chemins (criteres) de sélection. Ex : trouver le 3ème produit du catalogue; n'afficher que les produits en stock. 
+
+## XFORMS
+
+Formulaire "intelligent" -> formulaire puissant côté client. Implémente le pattern MVC. 
