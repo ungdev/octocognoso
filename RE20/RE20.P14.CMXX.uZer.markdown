@@ -1,38 +1,40 @@
-# [RE20] Cours 1 - MPLS
-Vendredi 21 Février 2014
+# [RE20] Cours XX - MPLS
+Vendredi 20 Juin 2014
 
 ## Pistes de travail pour le final
 
-- Qu'est-ce qu'un route reflector (RR) ?
+#### Route Reflector
 
-Sert à déléguer les annonces de routage.
-Une fois qu'on sait qui annonce quoi, où les annonces arrivent, on doit
-avoir l'intelligence nécessaire pour optimiser la diffusion
+_- Qu'est-ce qu'un route reflector (RR) ?_
 
-- Différence par rapport à un routeur normal ?
+    Sert à déléguer les annonces de routage.
+    Une fois qu'on sait qui annonce quoi, où les annonces arrivent, on doit
+    avoir l'intelligence nécessaire pour optimiser la diffusion
 
-Le fait de modifier le prochain saut.
+_- Différence par rapport à un routeur normal ?_
 
-__Routage à 3 points (2 routeurs et 1 RR)__
+    Le fait de modifier le prochain saut.
 
-- Est-ce que le RR a conscience d'être RR ?
+> Routage à 3 points (2 routeurs et 1 RR)
+
+_- Est-ce que le RR a conscience d'être RR ?_
 
     Oui
 
-- Est-ce que le routeur 3 a conscience de parler à un RR ?
+_- Est-ce que le routeur 3 a conscience de parler à un RR ?_
 
     Oui, le RR dit clairement qu'il ne faut pas router les annonces via lui.
     (Normalement le routeur qui fait l'annonce se présente comme prochain saut)
 
-- Est-ce que le routeur 3 a conscience de parler à un RR ?
+_- Est-ce que le routeur 3 a conscience de parler à un RR ?_
 
     Le routeur 1 en a conscience parce qu'il n'annonce ses routes qu'au RR
 
-- Quid de la négociation de labels ?
+_- Quid de la négociation de labels ?_
 
-__3 RR en fullmesh, les routeurs périphériques s'abonnement aux RR__
+> 3 RR en fullmesh, les routeurs périphériques s'abonnement aux RR
 
-- Si deux RR ou plus dans le réseau, peut-on les faire communiquer ensemble ?
+_- Si deux RR ou plus dans le réseau, peut-on les faire communiquer ensemble ?_
 
     Qui diffuse à qui ? Chaque RR à ses abonnés, et les RR entre eux ?
 
@@ -46,7 +48,7 @@ adresse IPv6 unique sans aide extérieure.
 
 - A l'aide du routeur, ils doivent trouver une adresse IP de Scope global.
 
-__Pourquoi ce n'est pas possible en IPv4 ?__
+_Pourquoi ce n'est pas possible en IPv4 ?_
 
 Pas assez d'éléments binaires dans la machine de l'adresse IP
 En v4, une machine qui démarre ne connait pas son masque. Elle ne sait pas le
@@ -62,7 +64,7 @@ En v6 on a des préfixes réservés pour adresser des groupes fonctionnels
 
 EUI64 : attribution dynamique
 
-__Scope site, lien local, différence ?__
+_Scope site, lien local, différence ?_
 
 (Scope site a tendance à être un peu délaissé)
 
