@@ -1,5 +1,6 @@
 # [RE20] Cours XX - MPLS
 Vendredi 20 Juin 2014
+Youenn / Guillaume
 
 ## Pistes de travail pour le final
 
@@ -7,9 +8,10 @@ Vendredi 20 Juin 2014
 
     Qu'est-ce qu'un route reflector (RR) ?
 
-Sert à déléguer les annonces de routage.
-Une fois qu'on sait qui annonce quoi, où les annonces arrivent, on doit
-avoir l'intelligence nécessaire pour optimiser la diffusion
+Autre routeur, servant à déléguer les annonces de routage, coûteuses en RAM.
+"Une fois qu'on sait qui annonce quoi, où les annonces arrivent, on doit
+avoir l'intelligence nécessaire pour optimiser la diffusion."
+
 
     Différence par rapport à un routeur normal ?
 
@@ -17,16 +19,23 @@ Le fait de modifier le prochain saut.
 
 _Routage à 3 points (2 routeurs et 1 RR)_
 
+``
+  Routeur 1 <---------- Routeur 2
+     |						|
+     +---------->  RR +-----+
+``
+
     Est-ce que le RR a conscience d'être RR ?
 
 Oui
 
-    Est-ce que le routeur 3 a conscience de parler à un RR ?
+    Est-ce que le routeur R2 a conscience de parler à un RR ?
 
-Oui, le RR dit clairement qu'il ne faut pas router les annonces via lui.
+Oui, le RR dit clairement qu'il ne faut pas router les annonces via lui, en
+précisant par quel routeur l'annonce doit revenir, ici R1.
 (Normalement le routeur qui fait l'annonce se présente comme prochain saut)
 
-    Est-ce que le routeur 3 a conscience de parler à un RR ?
+    Est-ce que le routeur R1 a conscience de parler à un RR ?
 
 Le routeur 1 en a conscience parce qu'il n'annonce ses routes qu'au RR
 
@@ -34,10 +43,44 @@ Le routeur 1 en a conscience parce qu'il n'annonce ses routes qu'au RR
 
 _3 RR en fullmesh, les routeurs périphériques s'abonnement aux RR_
 
+``
+   VRF ------- VRF -------- VRF
+    |                        |
+    |    RR --- RR --- RR    |
+    |                        |
+    +--------- VRF ----------+
+``
+
     Si deux RR ou plus dans le réseau, peut-on les faire communiquer ensemble ?
     Qui diffuse à qui ? Chaque RR à ses abonnés, et les RR entre eux ?
 
+
+#### Divers MPLS
+
+On doit maîtriser les annonces de routage.
+Chaque routeur doit se retrouver avec ce dont il a besoin, et rien d'autre.
+On y arrive à l'aide de zones, d'outils (filtrage d'annonces de routage),
+de systèmes autonomes, etc.
+
+Dans ces cas, on ne parle pas de RR. Le RR fait en sorte que ceux qui
+possèdent les routes (qui doivent donc les diffuser) se voit décharger du
+travail de diffusion. Différent de la liste de ceux qui doivent recevoir les
+annonces. On a donc deux listes : ceux qui FONT l'annonce et ceux qui RECOIVENT
+l'annonce.
+
+Paquets client encapsulés dans MPLS. Mais, une annonce de routage dans MPLS ne
+contient qu'un en-tête (niveau d'encapsulation) : l'outil qui permet d'aller
+dans la bonne VRF est le RT, pas le label (=> on n'a pas encore négocié de
+label puisqu'on a besoin de labels pour négocier le deuxième label)
+
 #### IPv6
+Un ordinateur peut se choisir lui-même une adresse IP, qui a de très fortes
+chances d'être unique (ce qui est très difficile en ipv4). L'idée d'IPv6 est
+de faire en sorte qu'on puisse brancher les ordis en v6 et qu'ils se
+débrouillent sans aucun service (admin ou dhcp) pour obtenir une adresse
+IP fonctionnelle.
+
+L'adresse de lien local est construite à partir de l'adresse MAC
 
 Il n'est pas forcément possible que les différents ordinateurs obtiennent une
 adresse IPv6 unique sans aide extérieure.
@@ -45,7 +88,9 @@ adresse IPv6 unique sans aide extérieure.
 - Les ordinateurs doivent se trouver une adresse IP non routable (sans aide
   extérieur)
 
-- A l'aide du routeur, ils doivent trouver une adresse IP de Scope global.
+- A l'aide du ou des routeurs via une adresse multicast dans le LAN.
+  Ce sont ces derniers qui doivent l'aider à trouver une adresse IP de Scope
+  Global (pour le réseau local).
 
 _Pourquoi ce n'est pas possible en IPv4 ?_
 
@@ -70,6 +115,13 @@ _Scope site, lien local, différence ?_
 
 #### BGP : Questions potentielles
 
-> Passage à l'échelle : Critère administratif ?
+    Passage à l'échelle : Critère administratif ?
 
-> Synchronisation avec le routage intérieur ?
+    Synchronisation avec le routage intérieur ?
+
+    Besoin de synchro tables BGP entre elles.
+    Réseau de taille conséquente.
+    Comment alléger le travail des routeurs de bordure en continuant à utilise iBGP,
+    mais sans obliger les routeurs de bordure à joindre tous leurs voisins ?
+
+Route Reflector!
