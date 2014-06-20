@@ -5,37 +5,36 @@ Vendredi 20 Juin 2014
 
 #### Route Reflector
 
-_- Qu'est-ce qu'un route reflector (RR) ?_
+    Qu'est-ce qu'un route reflector (RR) ?
 
-    Sert à déléguer les annonces de routage.
-    Une fois qu'on sait qui annonce quoi, où les annonces arrivent, on doit
-    avoir l'intelligence nécessaire pour optimiser la diffusion
+Sert à déléguer les annonces de routage.
+Une fois qu'on sait qui annonce quoi, où les annonces arrivent, on doit
+avoir l'intelligence nécessaire pour optimiser la diffusion
 
-_- Différence par rapport à un routeur normal ?_
+    Différence par rapport à un routeur normal ?
 
-    Le fait de modifier le prochain saut.
+Le fait de modifier le prochain saut.
 
-> Routage à 3 points (2 routeurs et 1 RR)
+_Routage à 3 points (2 routeurs et 1 RR)_
 
-_- Est-ce que le RR a conscience d'être RR ?_
+    Est-ce que le RR a conscience d'être RR ?
 
-    Oui
+Oui
 
-_- Est-ce que le routeur 3 a conscience de parler à un RR ?_
+    Est-ce que le routeur 3 a conscience de parler à un RR ?
 
-    Oui, le RR dit clairement qu'il ne faut pas router les annonces via lui.
-    (Normalement le routeur qui fait l'annonce se présente comme prochain saut)
+Oui, le RR dit clairement qu'il ne faut pas router les annonces via lui.
+(Normalement le routeur qui fait l'annonce se présente comme prochain saut)
 
-_- Est-ce que le routeur 3 a conscience de parler à un RR ?_
+    Est-ce que le routeur 3 a conscience de parler à un RR ?
 
-    Le routeur 1 en a conscience parce qu'il n'annonce ses routes qu'au RR
+Le routeur 1 en a conscience parce qu'il n'annonce ses routes qu'au RR
 
-_- Quid de la négociation de labels ?_
+    Quid de la négociation de labels ?
 
-> 3 RR en fullmesh, les routeurs périphériques s'abonnement aux RR
+_3 RR en fullmesh, les routeurs périphériques s'abonnement aux RR_
 
-_- Si deux RR ou plus dans le réseau, peut-on les faire communiquer ensemble ?_
-
+    Si deux RR ou plus dans le réseau, peut-on les faire communiquer ensemble ?
     Qui diffuse à qui ? Chaque RR à ses abonnés, et les RR entre eux ?
 
 #### IPv6
