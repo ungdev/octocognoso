@@ -68,3 +68,8 @@ _Scope site, lien local, différence ?_
 (Scope site a tendance à être un peu délaissé)
 
 
+#### BGP : Questions potentielles
+
+> Passage à l'échelle : Critère administratif ?
+
+> Synchronisation avec le routage intérieur ?
