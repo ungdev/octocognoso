@@ -19,11 +19,11 @@ Le fait de modifier le prochain saut.
 
 _Routage à 3 points (2 routeurs et 1 RR)_
 
-``
+```
   Routeur 1 <---------- Routeur 2
      |						|
      +---------->  RR +-----+
-``
+```
 
     Est-ce que le RR a conscience d'être RR ?
 
@@ -43,13 +43,13 @@ Le routeur 1 en a conscience parce qu'il n'annonce ses routes qu'au RR
 
 _3 RR en fullmesh, les routeurs périphériques s'abonnement aux RR_
 
-``
+```
    VRF ------- VRF -------- VRF
     |                        |
     |    RR --- RR --- RR    |
     |                        |
     +--------- VRF ----------+
-``
+```
 
     Si deux RR ou plus dans le réseau, peut-on les faire communiquer ensemble ?
     Qui diffuse à qui ? Chaque RR à ses abonnés, et les RR entre eux ?
