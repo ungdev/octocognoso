@@ -1,0 +1,69 @@
+# [RE20] Cours 1 - MPLS
+Vendredi 21 Février 2014
+
+## Pistes de travail pour le final
+
+- Qu'est-ce qu'un route reflector (RR) ?
+
+Sert à déléguer les annonces de routage.
+Une fois qu'on sait qui annonce quoi, où les annonces arrivent, on doit
+avoir l'intelligence nécessaire pour optimiser la diffusion
+
+- Différence par rapport à un routeur normal ?
+
+Le fait de modifier le prochain saut.
+
+__Routage à 3 points (2 routeurs et 1 RR)__
+
+- Est-ce que le RR a conscience d'être RR ?
+
+    Oui
+
+- Est-ce que le routeur 3 a conscience de parler à un RR ?
+
+    Oui, le RR dit clairement qu'il ne faut pas router les annonces via lui.
+    (Normalement le routeur qui fait l'annonce se présente comme prochain saut)
+
+- Est-ce que le routeur 3 a conscience de parler à un RR ?
+
+    Le routeur 1 en a conscience parce qu'il n'annonce ses routes qu'au RR
+
+- Quid de la négociation de labels ?
+
+__3 RR en fullmesh, les routeurs périphériques s'abonnement aux RR__
+
+- Si deux RR ou plus dans le réseau, peut-on les faire communiquer ensemble ?
+
+    Qui diffuse à qui ? Chaque RR à ses abonnés, et les RR entre eux ?
+
+#### IPv6
+
+Il n'est pas forcément possible que les différents ordinateurs obtiennent une
+adresse IPv6 unique sans aide extérieure.
+
+- Les ordinateurs doivent se trouver une adresse IP non routable (sans aide
+  extérieur)
+
+- A l'aide du routeur, ils doivent trouver une adresse IP de Scope global.
+
+__Pourquoi ce n'est pas possible en IPv4 ?__
+
+Pas assez d'éléments binaires dans la machine de l'adresse IP
+En v4, une machine qui démarre ne connait pas son masque. Elle ne sait pas le
+nombre d'éléments binaires qu'elle doit choisir. En V6, 64 bits pour le
+réseau, et 64 bits pour la machine.
+
+Utiliser une adresse IP non routable unique dans le réseau local en V4 est
+toutefois possible : 0.0.0.0/24
+
+> En v6 on ne parle plus de réseau on parle de préfixe
+
+En v6 on a des préfixes réservés pour adresser des groupes fonctionnels
+
+EUI64 : attribution dynamique
+
+__Scope site, lien local, différence ?__
+
+(Scope site a tendance à être un peu délaissé)
+
+
