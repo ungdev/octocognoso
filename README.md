@@ -83,4 +83,4 @@ Année en 2 chiffres. Exemple : P14
         res/
             image01.jpg
         RE12.P14.CM01.uZer.markdown
-        RE12.P14.CM01.ArchifleKs.tex
+        RE12.P14.CM01.ArchiFleKs.tex
