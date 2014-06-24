@@ -78,9 +78,9 @@ Année en 2 chiffres. Exemple : P14
         IF03.P13.CM01.uZer.markdown
         IF03.P14.CM01.nanoF.txt
         IF03.P14.TP01.nanoF.markdown
-        
+
     RE12/
         res/
             image01.jpg
         RE12.P14.CM01.uZer.markdown
-        RE12.P14.CM01.Archiflex.tex
+        RE12.P14.CM01.ArchifleKs.tex
