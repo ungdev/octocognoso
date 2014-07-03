@@ -9,91 +9,99 @@ Mardi 1 Juillet 2014
 France : 6%
 Allemagne: 85%
 
-La difference:
-	- relations entre les syndicats et la politique.
-	- 5 syndicats qui se partagent 6% des salariés.
-	- Division syndicale.
-	- Theorie du combat.
-	- Dualité Cadre / Syndicat (CGC).
+La différence:
+
+    -   relations entre les syndicats et la politique.
+	-   5 syndicats qui se partagent 6% des salariés.
+	-   Division syndicale.
+	-   Théorie du combat.
+	-   Dualité Cadre / Syndicat (CGC).
 
 Les 5 gros syndicats:
-	- CFDT
-	- CGC
-	- CGT
-	- SUD
-	- FO
+
+    -   CFDT
+	-   CGC
+	-   CGT
+	-   SUD
+	-   FO
 
 ###### Le delegué syndical
 
-Le DS en France peut etre nommé par un syndicat dans les entreprises de +50
-personnes ce qui pose un problème de legitimité : les salarié ne sont pas tous
+Le DS en France peut être nommé par un syndicat dans les entreprises de +50
+personnes ce qui pose un problème de légitimité : les salarié ne sont pas tous
 syndiqués.
 
-Pour ameliorer la legitmité, pour que le DS soit nommé il faut que le syndicat
-ait fait plus de 10% au elections. Si plusieurs syndicats font plus de 10%,
+Pour améliorer la légitimité, pour que le DS soit nommé il faut que le syndicat
+ait fait plus de 10% au élections. Si plusieurs syndicats font plus de 10%,
 chacun peut nommer un DS.
 
-Les fonctionnaires sont souvent plus syndiqués, c'est lié à la securité de
-l'emploi. Dans le privé, il y a une forte discriminaton syndicale.
+Les fonctionnaires sont souvent plus syndiqués, c'est lié à la sécurité de
+l'emploi. Dans le privé, il y a une forte discrimination syndicale.
 
 Calcul de l'effectif d'une entreprise
-    - Equivalent temps plein sur les 3 dernière années.
+    - Équivalent temps plein sur les 3 dernière années.
     - 12 mois les plus forts.
 
-Salarié protegé: Toute mesure disciplinaire a son encontre doit passée par
+Salarié protégé: Toute mesure disciplinaire a son encontre doit passée par
 l'inspection du travail. Effective 6 mois après la fin du mandat.
 
 Il a 20h par mois qui sont prises sur son temps de travail. Durant ses heures
-personne ne peut lui demander de justifications sinon il peut y avoir delit
+personne ne peut lui demander de justifications sinon il peut y avoir délit
 d'entrave.
 
 Ils ont une certaine liberté d'expression par rapport a l'entreprise que les
-autres salariés n'ont pas. C'est pour cela par exemple que les media n'interview
+autres salariés n'ont pas. C'est pour cela par exemple que les médias n'interroge
 jamais des salariés mais des délégués.
 
 RSS : Responsable de section syndical, il est nommé par les syndicats de moins
 de 10% avec des pouvoir et missions moindres.
 
 **Les missions**
-
-    - Defenseur des droits fondamentaux des salariés.
-    - Negociateur annuel des salaires.
-    - Negociateur des accords d'entreprise (Il faut signer au moins avec 30%
+    - Défenseur des droits fondamentaux des salariés.
+    - Négociateur annuel des salaires.
+    - Négociateur des accords d'entreprise (Il faut signer au moins avec 30%
       des syndicats).
 
-###### Le delegué du personnel
+###### Le délégué du personnel
 
-Il faut etre plus de 10 personnes, les mandats sont de 4 ans. C'est une election
+Il faut être plus de 10 personnes, les mandats sont de 4 ans. C'est une élection
 à deux tours. Au premier tour, seuls les candidats des syndicats peuvent se
-presenter. Au deuxieme, seulement si il reste des places, tout le monde peut se
-presenter.
+présenter. Au deuxième, seulement si il reste des places, tout le monde peut se
+présenter.
 
-Entre 11 et 50 salarié, il y a un titulaire et un suppleant. Il peut egalement y
-avoir des colleges. Plus on a de salariés, plus on a de DP.
+Entre 11 et 50 salarié, il y a un titulaire et un suppléant. Il peut également y
+avoir des collèges. Plus on a de salariés, plus on a de DP.
 
 **Les missions**
-
-    - Representation collective.
-    - Une discussion par mois, avec l'employeur (c'est a l'empoyeur de
+    - Représentation collective.
+    - Une discussion par mois, avec l'employeur (c'est à l'employeur de
       respecter).
-    - Defenseur des droits des salariés.
-    - Ils ne peuvent pas negocier d'accords d'entreprise sauf derogation du
+    - Défenseur des droits des salariés.
+    - Ils ne peuvent pas négocier d'accords d'entreprise sauf dérogation du
       syndicat (delegation par mandat) mais c'est le syndicat qui signe au
       final.
 
-C'est un salarié protegé avec des heures de delegations. Il a une liberté de
+C'est un salarié protégé avec des heures de délégations. Il a une liberté de
 circulation dans l'entreprise.
 
-Il peut y avoir un PV de carrence de 4 ans dans le cas ou personne ne se
-presente.
+Il peut y avoir un PV de carence de 4 ans dans le cas ou personne ne se
+présente.
 
 ###### Les syndicats patronaux
 
-**Le MEDEF :** 1% des patrons qui emploient 54% des salariés. En general ce sont les
+**Le MEDEF :** 1% des patrons qui emploient 54% des salariés. En général ce sont les
 patrons des entreprises de plus de 300 salariés.
 
-**La CGPME :** 5% des patron, en general des entreprises de moins de 300 salariés.
+**La CGPME :** 5% des patron, en général des entreprises de moins de 300 salariés.
 
-Glabalement on a 6% de patrons syndiqués. Le MEDEF des Hautes-Seine est le plus
-puissant avec La Defense et les sieges sociaux de beaucoup d'entreprise
+Globalement on a 6% de patrons syndiqués. Le MEDEF des Hautes-Seine est le plus
+puissant avec La Défense et les sièges sociaux de beaucoup d'entreprise
 Française puisque la cotisation est un pourcentage du CA.
+
+###### Le comité d'entreprise
+
+Plus de 50 salariés. Les élections se font en deux tours comme pour les DP. Le
+CE est financé par subvention versées par les entreprises:
+    - Subventions de fonctionnement : minimum 0,2% de masse salarial brute (exceptions: EDF, 1% du CA).
+    - Subvention d'œuvre sociale : Pas de taux mais forcement supérieur à
+      l'année precedente (Loi depuis 1970).
