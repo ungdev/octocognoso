@@ -10,18 +10,18 @@ France : 6%
 Allemagne: 85%
 
 La différence:
-    -   relations entre les syndicats et la politique.
-	-   5 syndicats qui se partagent 6% des salariés.
-	-   Division syndicale.
-	-   Théorie du combat.
-	-   Dualité Cadre / Syndicat (CGC).
+-   relations entre les syndicats et la politique.
+-   5 syndicats qui se partagent 6% des salariés.
+-   Division syndicale.
+-   Théorie du combat.
+-   Dualité Cadre / Syndicat (CGC).
 
 Les 5 gros syndicats:
-    -   CFDT
-	-   CGC
-	-   CGT
-	-   SUD
-	-   FO
+-   CFDT
+-   CGC
+-   CGT
+-   SUD
+-   FO
 
 ###### Le delegué syndical
 
