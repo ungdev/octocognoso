@@ -2,9 +2,9 @@
 
 Mardi 1 Juillet 2014
 
-##### Les syndicats
+### Les syndicats
 
-###### Taux de syndicalisation
+#### Taux de syndicalisation
 
 France : 6%
 Allemagne: 85%
@@ -25,7 +25,7 @@ Les 5 gros syndicats:
 -   SUD
 -   FO
 
-###### Le delegué syndical
+#### Le delegué syndical
 
 Le DS en France peut être nommé par un syndicat dans les entreprises de +50
 personnes ce qui pose un problème de légitimité : les salarié ne sont pas tous
@@ -63,7 +63,7 @@ de 10% avec des pouvoir et missions moindres.
 -   Négociateur annuel des salaires.
 -   Négociateur des accords d'entreprise (Il faut signer au moins avec 30% des syndicats).
 
-###### Le délégué du personnel
+#### Le délégué du personnel
 
 Il faut être plus de 10 personnes, les mandats sont de 4 ans. C'est une élection
 à deux tours. Au premier tour, seuls les candidats des syndicats peuvent se
@@ -86,7 +86,7 @@ circulation dans l'entreprise.
 Il peut y avoir un PV de carence de 4 ans dans le cas ou personne ne se
 présente.
 
-###### Les syndicats patronaux
+#### Les syndicats patronaux
 
 **Le MEDEF :** 1% des patrons qui emploient 54% des salariés. En général ce sont les
 patrons des entreprises de plus de 300 salariés.
@@ -97,7 +97,7 @@ Globalement on a 6% de patrons syndiqués. Le MEDEF des Hautes-Seine est le plus
 puissant avec La Défense et les sièges sociaux de beaucoup d'entreprise
 Française puisque la cotisation est un pourcentage du CA.
 
-###### Le comité d'entreprise
+#### Le comité d'entreprise
 
 Plus de 50 salariés. Les élections se font en deux tours comme pour les DP. Le
 CE est financé par subvention versées par les entreprises:
